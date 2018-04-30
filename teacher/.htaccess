@@ -1,0 +1,5 @@
+AuthUserFile /home/users/1/mond.jp-waschbaerli/web/dictation/teacher/.htpasswd
+AuthGroupFile /dev/null
+AuthName "TeachersOnly"
+AuthType Basic
+require valid-user

@@ -1,0 +1,36 @@
+a {text-decoration:none;}
+
+a:hover {background-color: blue;}
+
+.right{
+      float:right;
+      margin-left:20px;
+}
+
+.left{
+      float:left;
+      margin-right:20px;
+}
+
+body.upload TD, TH, P, FORM {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:#fff;
+       line-height: 110%;
+}
+
+body.upload H3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color:#9c9;
+       	line-height: 110%;
+	display: inline;
+}
+
+body.upload address {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+	  color:#eee;
+        line-height: 110%;
+	  display: inline;
+}

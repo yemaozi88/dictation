@@ -1,0 +1,501 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=x-euc-jp">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Heppoko Library</title>
+</head>
+
+<body bgcolor="#FFEFDF">
+<div align="center"><center>
+
+<table border="1" width="95%" bgcolor="#FFFFC8">
+    <tr>
+        <td bgcolor="#C8FFC8"><p align="center"><font
+        color="#008000" size="5">ファイルアップロード
+        CGI Ver. 2.5<br>
+        Copyright(C)2000 へっぽこはうす(TM?)<br>
+        All rights reserved</font> </p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center"><br>
+</p>
+<div align="center"><center>
+
+<table border="0" width="95%">
+    <tr>
+        <td bgcolor="#FFC8C8"><p align="center"><font
+        color="#0000FF" size="5">☆☆☆ 1. はじめに
+        ☆☆☆</font> </p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<p>どもども，へっぽこです．この度は，本ソフトウェアをダウンロードして頂きまして，誠にありがとうございます．</p>
+
+<p>本ソフトウェアはまれにバージョンが上がりますので，ウェブページをたまにチェックするといいかもしれません
+:-)</p>
+
+<p align="center">Heppoko House Light <a
+href="http://homepage1.nifty.com/~heppoko/">http://homepage1.nifty.com/~heppoko/</a></p>
+<div align="center"><center>
+
+<table border="0" width="95%">
+    <tr>
+        <td bgcolor="#FFC8C8"><p align="center"><font
+        color="#0000FF" size="5">☆☆☆ 2.
+        このプログラムについて ☆☆☆</font> </p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<p>このプログラムは，Web
+ページ用ディスクスペースに Web
+ブラウザからファイルをアップロードするためのプログラムです．ftp
+等を使わずにファイルを送信することが出来ます．また，アップロードしたファイルの管理も
+Web ブラウザ上で行うことが出来ます．</p>
+
+<p align="center"><font color="#FF0000" size="5">注意!</font></p>
+
+<p>このプログラムは，セキュリティ上の様々な配慮をしておりますが，<font
+color="#FF0000">セキュリティの知識がない人(707って何ですか？という人等)はこのプログラムを使用しないでください</font>．何が起きても私は責任を取れません．また，万が一セキュリティホールが見つかった場合には，<font
+color="#008000">私宛にメール</font>にて御連絡願います．(ソースが汚いので見つけにくいかも・・・)</p>
+
+<p><font color="#FF0000">v1.0βから旧バージョンとの互換性がほぼなくなりました</font>．これは，セキュリティ向上のためにデータ管理方式を変更したことに起因します．旧バージョンから移行する方法は後で説明します．</p>
+<div align="center"><center>
+
+<table border="0" width="95%">
+    <tr>
+        <td bgcolor="#FFC8C8"><p align="center"><font
+        color="#0000FF" size="5">☆☆☆ 3. ファイル構成
+        ☆☆☆</font> </p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<pre>
+readme.html             本テキスト(html版)
+history.txt             更新履歴
+upload.cgi              ファイルアップロード用プログラム(Perlプログラム)
+gif/                    へぼへぼ gif ファイル
+</pre>
+
+<p align="center"><font color="#FF0000" size="5">注意!</font></p>
+
+<p>このプログラムは単体では実行できません．<font
+color="#FF0000">実行には，へっぽこ CGI ライブ ラリ
+hcgilib.pl Ver. 0.98 以降及が必要</font>です．また，<font
+color="#FF0000">jcode.plが必要</font>です．</p>
+<div align="center"><center>
+
+<table border="0" width="95%">
+    <tr>
+        <td bgcolor="#FFC8C8"><p align="center"><font
+        color="#0000FF" size="5">☆☆☆ 4. 動作環境
+        ☆☆☆</font> </p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<p>CGI の使用を許可し，Perl Ver.5
+以降をインストールしている環境であれば
+動くはずです．但し，一部の環境(@nifty等)ではまともに動作しないことが確認されています．現在原因を究明中ですが，何か情報をお持ちでしたらご連絡下さい．m(__)m
+</p>
+<div align="center"><center>
+
+<table border="0" width="95%">
+    <tr>
+        <td bgcolor="#FFC8C8"><p align="center"><font
+        color="#0000FF" size="5">☆☆☆ 5. 使用方法
+        ☆☆☆</font> </p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<p><font size="5">●インストール</font></p>
+
+<p>簡単に説明します．<font color="#FF0000">最低限必要な準備</font>は以下の通りです</p>
+
+<hr width="80%">
+
+<p><font size="4"><strong>☆
+以下のようにファイルを配置し，パーミッションを設定する．</strong></font></p>
+
+<p><font size="4">◎プログラム配置例 </font></p>
+
+<pre> cgi-bin/（任意のディレクトリ）
+    |
+    |-- upload.cgi   (705) ... 【必須】CGI プログラム (同梱)
+    |-- hcgilib.pl   (604) ... 【必須】CGI ライブラリ
+    |-- jcode.pl     (604) ... 【必須】日本語変換ライブラリ
+    |-- back.gif     (604) ... 壁紙を設定する場合のみ必要
+    |-- tback.gif    (604) ... タイトル部分に壁紙を設定する場合のみ必要
+    |-- .hosts_deny  (604) ... UP不許可ホストを設定する場合のみ必要
+    |-- .hosts_allow (604) ... UP許可ホストを設定する場合のみ必要
+    |-- .uploadrc    (604) ... リソースを設定する場合のみ必要
+    |-- 
+    |-- gif/         (705) ... 【必須】gif データ用ディレクトリ
+    |    |-- ***.gif (604) ... 【必須】gif データ (同梱)
+    |-- data/        (707) ... 【必須】データ用ディレクトリ (作る)
+    |-- upload/      (707) ... 【必須】ファイルアップロード用ディレクトリ (作る)
+</pre>
+
+<p>各ファイルやディレクトリは任意の場所に配置可能です．
+ただし，上記の例と異なる配置を行った場合には，
+upload.cgi 中の定数を書き換える必要があります．</p>
+
+<p><font color="#FF0000">データ用ディレクトリにはパスワードファイル等が保存されるため，
+ブラウザからアクセス出来ない場所に設定することが推奨されます</font>．
+アクセス制限が不可能な場合は，ディレクトリ名を推測しにくい名前に
+変更することをお勧めします．</p>
+
+<blockquote>
+    <p>例: data -&gt; d3r4hoge </p>
+</blockquote>
+
+<p><font size="4"><strong>☆ upload.cgi
+中の定数を書き換える．</strong></font></p>
+
+<p>A. ページのタイトルや，管理者のページ等を設定します．
+各ファイルやディレクトリの場所，ディスク容量の
+制限などは必要に応じて設定します． </p>
+
+<p>B. または，変更する定数をリソースファイルに記述しておきます．<font
+color="#FF0000">リソースファイル中の設定は，upload.cgi
+中の設定よりも優先されます</font>ので，リソースファイルを用意しておけば
+CGI のバージョンアップの作業が楽になります．</p>
+
+<blockquote>
+    <p>例: </p>
+    <pre>[.uploadrc] 
+$datadir = './data'; 
+$hcgilibname = '../cgi-lib/hcgilib.pl'; 
+... 
+$admin_page_title = 'へにょへにょはうすトップページ';
+</pre>
+</blockquote>
+
+<blockquote>
+    <p>注:
+    リソースファイルの中で日本語を使用する場合には，CGI
+    プログラムと同じ文字コードを使用する必要があります．
+    標準では EUC コードとなっていますので，リソースファイル
+    も EUC コードで記述して下さい． </p>
+</blockquote>
+
+<hr width="80%">
+
+<p><font color="#FF0000">場合により必要な準備</font>は以下の通りです</p>
+
+<hr width="80%">
+
+<p><font size="4"><strong>☆ perl
+のインストールされている場所に応じて *.cgi
+の第1行目を変更する</strong></font>． </p>
+
+<blockquote>
+    <p>例: #!/usr/bin/perl → #!/usr/local/bin/perl </p>
+</blockquote>
+
+<p><font size="4"><strong>☆ UP不許可ホストやUP許可ホストを記述したファイルの作成．</strong></font></p>
+
+<blockquote>
+    <p>例:</p>
+    <pre>[.hosts_deny]
+hoge.*
+abc.co.jp
+202.123.45.*
+
+[.hosts_allow]
+uge
+aaa.co.jp
+210.32.23.*
+</pre>
+</blockquote>
+
+<blockquote>
+    <p>※ 正規表現を使用することが出来ます． </p>
+    <p>注:
+    不要な空白・空白行・コメント行などは入れないで下さい．
+    </p>
+</blockquote>
+
+<p><font size="4"><strong>☆ 旧バージョン(v0.99以下)からの移行</strong></font></p>
+
+<p>a.
+データ用ディレクトリ以下の構造をファイルアップロード用ディレクトリ以下の構造に合わせる(同じディレクトリ構造にする)</p>
+
+<blockquote>
+    <p>例: </p>
+    <pre>|-- data/
+     |-- image/        ← 作る
+     |-- text/         ← 作る
+|-- upload/
+     |-- image/
+     |-- text/
+</pre>
+</blockquote>
+
+<p>b.
+ファイルアップロード用ディレクトリに存在する管理用
+ファイル(.admin_passwd, .fileinfo, .diskinfo, .errlog) を
+データ用ディレクトリに移動する．但し，相対位置が保存
+されるようにデータを移動する．</p>
+
+<blockquote>
+    <p>例:</p>
+    <pre>&gt; mv upload/.admin_passwd data/
+&gt; mv upload/.fileinfo data/
+&gt; mv upload/.diskinfo data/
+&gt; mv upload/.errlog data/
+
+&gt; mv upload/image/.fileinfo data/image/
+&gt; mv upload/text/.fileinfo data/text/
+</pre>
+</blockquote>
+
+<hr width="80%">
+
+<p>あとは，<font color="#008000">適当なところから
+upload.cgi を読み込めば OK</font>です．</p>
+
+<p>例: &lt;a href=&quot;upload.cgi&quot;&gt;あっぷあっぷ&lt;/a&gt;</p>
+
+<p align="center"><font color="#FF0000" size="5">注意!</font></p>
+
+<p><font color="#000000">この CGI
+は，セキュリティ上絶対安全な CGI
+であるとは言いきれません．実際に設定を行うかどうかは別として，</font><font
+color="#FF0000">必ず全ての定数に目を通してください</font>．面倒かもしれませんが，セキュリティ向上のために是非ともお願いします．</p>
+
+<p>繰り返しになりますが，セキュリティには十分気をつけてください．通常は，<font
+color="#FF0000">特定のホストからのみアクセスが可能な場所にこのプログラムを設置するのが良い</font>でしょう．(このプログラムに用意されているホスト制限機能を利用するという意味ではありません．.htaccess
+ファイル等を記述し，httpd
+の方でホストの制限をするという意味です)</p>
+
+<hr width="80%">
+
+<p><font size="5">●実行</font></p>
+
+<p><font color="#FF0000">一番最初に CGI
+を呼び出した時に，管理者パスワードの入
+力を求められます</font>．このパスワードは，管理者権限を利用した
+データ管理時に必要になりますので，忘れないように気をつけて下さい．
+</p>
+
+<p>管理者権限で以下のことを実行することが出来ます．
+</p>
+
+<p>・<b>すべてのファイルの削除</b>: </p>
+
+<blockquote>
+    <p>登録者に関係なくすべてのファイルの削除を行うことが出来ます．ファイル削除時に指定するパスワードとして管理者パスワードを入力して下さい．
+    </p>
+</blockquote>
+
+<p>・<b>すべての種類のファイルのアップロード</b>:
+</p>
+
+<blockquote>
+    <p>定数の設定にもよりますが，通常はアップロードが禁止されている種類のファイル(*.html,
+    *.cgi 等)をアップロードすることが出来ます．ファイルアップロード時に指定するパスワードとして管理者パスワードを入力して下さい．
+    </p>
+</blockquote>
+
+<p>・<b>すべてのサーバからのファイルのアップロード</b>:
+</p>
+
+<blockquote>
+    <p>定数の設定にもよりますが，通常はアップロードが禁止されているサーバからファイルをアップロードすることが出来ます．ファイルアップロード時に指定するパスワードとして管理者パスワードを入力して下さい．
+    </p>
+</blockquote>
+
+<p>また，<font color="#FF0000">v1.0βよりユーザのパスワードの登録が必要になりました</font>．このパスワードは，ユーザ認証を行う場合やファイルの登録者に制限を設ける場合に必要になります．(但し，デフォルトの定数の設定ではユーザのパスワードは意味を持ちません)
+</p>
+
+<p>その他の操作方法については，実行画面を参考にして下さい．
+</p>
+<div align="center"><center>
+
+<table border="0" width="95%">
+    <tr>
+        <td bgcolor="#FFC8C8"><p align="center"><font
+        color="#0000FF" size="5">☆☆☆ 6. 使用条件
+        ☆☆☆</font> </p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<p>ファイルアップロード CGI (以下，本ソフトウェア)
+は，<font color="#FF0000">個人で使用される場合</font>には<font
+color="#008000">フリーソフトウェア</font>としてお使い頂けます．しかし，<font
+color="#FF0000">営利目的で使用される場合</font><font
+color="#000000">には</font><font color="#008000">カンパウェア</font><font
+color="#000000">としてお使い頂くことになります．以下にそれぞれの使用条件について述べます．使用条件を承諾出来ない方は，本ソフトウェアをご使用にならないで下さい．</font></p>
+
+<h3>個人・営利目的使用共通の使用条件</h3>
+
+<blockquote>
+    <table border="1" cellpadding="2" cellspacing="4">
+        <tr>
+            <td valign="top"><p align="center">a. </p>
+            </td>
+            <td>本ソフトウェアは自由に転載・再配布することが可能です．但し，転載・再配布は必ず元のアーカイブのままで行って下さい．</td>
+        </tr>
+        <tr>
+            <td valign="top"><p align="center">b. </p>
+            </td>
+            <td>本ソフトウェアの転載・再配布を行う場合には，出来る限りその旨を作者のへっぽこにご連絡願います．但し，雑誌等への掲載に関しては，必ず事前にご連絡願います．</td>
+        </tr>
+        <tr>
+            <td valign="top"><p align="center">c. </p>
+            </td>
+            <td>本ソフトウェアの導入・使用により発生する如何なる損害に対しても，作者のへっぽこは一切責任を負わないものとします．</td>
+        </tr>
+        <tr>
+            <td valign="top"><p align="center">d. </p>
+            </td>
+            <td>作者のへっぽこは本ソフトウェアの導入・使用に対してサポートを行いますが，サポートの義務は負わないものとします．</td>
+        </tr>
+    </table>
+</blockquote>
+
+<h3>個人使用の使用条件</h3>
+
+<blockquote>
+    <table border="1" cellpadding="2" cellspacing="4">
+        <tr>
+            <td valign="top"><p align="center">a. </p>
+            </td>
+            <td>本ソフトウェアは，作者のへっぽこの許可を得ることなしに自由に使用することが出来ます．作者のへっぽこに対してソフトウェアの使用料等を支払う必要はありません．</td>
+        </tr>
+        <tr>
+            <td valign="top"><p align="center">b. </p>
+            </td>
+            <td>本ソフトウェアは，作者のへっぽこの許可を得ることなしに自由に改変することが出来ます．別のプログラムへコードを流用することも可能です．ただし，それらを配布する場合には，本ソフトウェアを改変・流用した旨を必ずドキュメントに含めてください．また，Heppoko
+            House Light の URL
+            等の情報も併せて載せておいて下さい．
+            </td>
+        </tr>
+        <tr>
+            <td valign="top"><p align="center">c. </p>
+            </td>
+            <td>本ソフトウェアを改変したもの，または本ソフトウェアのコードを流用したものを配布する場合には，出来る限りその旨を作者のへっぽこにご連絡願います．</td>
+        </tr>
+    </table>
+</blockquote>
+
+<h3>営利目的使用の使用条件</h3>
+
+<blockquote>
+    <table border="1" cellpadding="2" cellspacing="4">
+        <tr>
+            <td valign="top"><p align="center">a. </p>
+            </td>
+            <td>本ソフトウエアは，ダウンロードしてから２ヶ月(60日)間の試用が可能です．試用期間内に限り，作者のへっぽこの許可を得ることなしに本ソフトウェアを使用・改変することが出来ます．但し，動作確認以外の目的で本ソフトウェアを使用することは禁止します(本運用は禁止します)．また，改変されたものを配布したり本ソフトウェアのコードを製品等に組み込むことは禁止します．</td>
+        </tr>
+        <tr>
+            <td valign="top"><p align="center">b. </p>
+            </td>
+            <td>本ソフトウェアを試用期間を超えて使用される場合，試用期間内であっても本運用される場合，本ソフトウェアの作者に対して連絡を行う必要があります．利用目的・会社名(組織名)・連絡先なども必ずご連絡願います．試用期間後の無断使用，試用期間内の無断本運用はご容赦願います．</td>
+        </tr>
+        <tr>
+            <td valign="top"><p align="center">c. </p>
+            </td>
+            <td>本ソフトウェアの使用に伴い利益を得た場合，本ソフトウェアに利用価値を見出し継続的に使用される場合，作者のへっぽこに対して金銭・またはその他のカンパをお願いいたします．</td>
+        </tr>
+        <tr>
+            <td valign="top"><p align="center">d. </p>
+            </td>
+            <td>カンパをして頂いた方は，本ソフトウェアを自由に使用・改変することが出来ます．但し，改変されたものを配布したり本ソフトウェアのコードを製品等に組み込むことは禁止します．</td>
+        </tr>
+        <tr>
+            <td valign="top"><p align="center">e. </p>
+            </td>
+            <td>カンパをして頂けない方は，本ソフトウェアを自由に使用することは出来ますが，本ソフトウェアを改変することは出来ません．本ソフトウェアのコードを製品等に組み込むことも禁止します．また，本ソフトウェアの導入・使用に際して一切のサポートを受けることが出来ません．</td>
+        </tr>
+    </table>
+</blockquote>
+
+<blockquote>
+</blockquote>
+
+<p>以下に用語の補足を示します．</p>
+
+<h4>営利目的:</h4>
+
+<blockquote>
+    <p>金銭的な利益の有無とは関係がありません．個人使用以外の全ての使用を指します．直接的な収益に結び付かなくても，会社・組織等のコンピュータで使用される場合は，営利目的と判断しますのでご注意下さい．</p>
+    <p>なお，<font color="#FF0000">教育機関(小中学校・高校等)における使用は例外的に個人使用の条件に従います</font>．但し，<font
+    color="#0000FF">大学・大学院の場合はこの例外が適用されません</font>．研究室内で使うなどの小規模な使用も含めて営利目的使用の条件が適用されます．</p>
+</blockquote>
+
+<h4>ソフトウェアの改変:</h4>
+
+<blockquote>
+    <p>本ソフトウェアにおいて，<font color="#0000FF">変更可能な定数</font><font
+    color="#FF0000">以外</font>を書き換えること改変と定義します．<font
+    color="#0000FF">変更すべきでない定数</font>やプログラム中のHTML部を書き換えることも改変にあたりますのでご注意下さい．また，添付のファイル(画像等)を同一名のファイルで置きかえることも改変とみなします．</p>
+</blockquote>
+
+<h4>カンパ:</h4>
+
+<blockquote>
+    <p>金銭でのカンパの場合は 500
+    円単位でお願いします．つまり，500円でも一向に構いません．</p>
+    <p>金銭以外でのカンパの場合は適当なもので構いませんが，常識的なものでお願いします．違法な物，なま物などはご勘弁を(^^;</p>
+    <p>個人使用でもカンパを行いたい!
+    という方も大歓迎です (^^) でも，何も出ません(笑)</p>
+    <p>個人使用・営利目的使用を問わず，カンパは如何なる場合も強制されるものではありません．良識に従ってカンパを行うべきか否かを判断して下さい．でも，カンパしてくれると嬉しいな♪</p>
+    <p><font color="#FF0000">営利目的使用でカンパを行わない場合でも連絡義務(営利目的の条件b)は存在します</font>のでご注意下さい．</p>
+</blockquote>
+
+<p><font color="#FF0000">その他不明な点はメールにてお問い合わせ願います</font>．不明な点に関して自己判断をされないようにお願いいたいす．</p>
+
+<p>Ver. 2.0β
+あたりから使用条件がやたら変わっていることをお詫びいたします．今後も変わる可能性がありますが，使用条件は各バージョンに添付のものに従ってください．m(__)m</p>
+<div align="center"><center>
+
+<table border="0" width="95%">
+    <tr>
+        <td bgcolor="#FFC8C8"><p align="center"><font
+        color="#0000FF" size="5">☆☆☆ 7. サポート
+        ☆☆☆</font> </p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<p>本ソフトウェアは上記の通りフリーソフトウェア(一部カンパウエア)です．<font
+color="#008000">完全なサポートを期待してはいけない</font>(作者はサポートの義務は負わない)ことをご理解下さい．</p>
+
+<p>ただし，サポートを行わないという意味ではありません．ソフトウェアの使用法に関する問い合わせ・ソフトウェアのバグの指摘・機能追加の要望などは受け付けています．(但し，営利目的使用でカンパを行わない場合を除きます)</p>
+
+<p>メールでの連絡の場合，以下のアドレスにご連絡下さい．</p>
+
+<p align="center"><a href="mailto:heppoko@kun.ne.jp">へっぽこ
+heppoko@kun.ne.jp</a></p>
+
+<p>掲示板の書きこみの場合はへっぽこはうすの掲示板を利用して下さい．</p>
+
+<p align="center"><a href="http://homepage1.nifty.com/~heppoko/">へっぽこはうす
+http://homepage1.nifty.com/~heppoko/</a></p>
+
+<p>場合によっては<font color="#008000">お返事が出来ない場合があります</font>が，ご了解願います．</p>
+
+<p>#
+本ソフトウェアの著作権はへっぽこが有しています．<br>
+#
+へっぽこ，へっぽこはうす等はへっぽこの商標ではありません(謎)</p>
+</body>
+</html>

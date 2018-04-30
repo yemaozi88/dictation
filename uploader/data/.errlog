@@ -1,0 +1,940 @@
+DATE=2012/10/15 TIME=05:27 HOST= ADDR=80.101.30.222
+	NAME=管理者のパスワードを設定しました．パスワードを忘れないように気を付けて下さい．忘れてしまった場合はパスワードファイル data/.admin_passwd を削除して再度設定して下さい
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=05:27 HOST= ADDR=80.101.30.222
+	NAME=ユーザのパスワードを設定しました．パスワードを忘れないように気を付けて下さい．忘れてしまった場合はパスワードファイル data/.user_passwd を削除して再度設定して下さい
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:05 HOST= ADDR=80.101.30.222
+	NAME=ディレクトリ img を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:07 HOST= ADDR=80.101.30.222
+	NAME=ディレクトリ wav を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:08 HOST= ADDR=80.101.30.222
+	NAME=wav の情報を変更しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:09 HOST= ADDR=80.101.30.222
+	NAME=ディレクトリ word を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:10 HOST= ADDR=80.101.30.222
+	NAME=01mameda.JPG をサーバーに<font color="red"></font>登録しました<BR>04disappointed.JPG をサーバーに<font color="red"></font>登録しました<BR>05happy.JPG をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/img&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:13 HOST= ADDR=80.101.30.222
+	NAME=10jump.JPG をサーバーに<font color="red"></font>登録しました<BR>14no.JPG をサーバーに<font color="red"></font>登録しました<BR>23scolded.JPG をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/img&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:21 HOST= ADDR=80.101.30.222
+	NAME=ディレクトリ setA を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:21 HOST= ADDR=80.101.30.222
+	NAME=ディレクトリ setB を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:22 HOST= ADDR=80.101.30.222
+	NAME=ファイルのサイズが大きすぎるか，または不正なデータが送られています．<P>エラーメッセージ : <BR> error in FormData2::receive: too much data : 1357579 byte (MAX: 600000 byte)</P> 問題が解決しない場合は，管理者に問い合わせてみて下さい
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setA&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:29 HOST= ADDR=80.101.30.222
+	NAME=filelist.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setA&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:32 HOST= ADDR=80.101.30.222
+	NAME=filelist.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setB&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:32 HOST= ADDR=80.101.30.222
+	NAME=filelist.csv を削除しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setA&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:33 HOST= ADDR=80.101.30.222
+	NAME=filelist.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setA&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:36 HOST= ADDR=80.101.30.222
+	NAME=1.mp3 をサーバーに<font color="red"></font>登録しました<BR>1.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setA&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:38 HOST= ADDR=80.101.30.222
+	NAME=2.mp3 をサーバーに<font color="red"></font>登録しました<BR>2.wav をサーバーに<font color="red"></font>登録しました<BR>3.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setA&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:39 HOST= ADDR=80.101.30.222
+	NAME=3.wav を削除しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setA&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:40 HOST= ADDR=80.101.30.222
+	NAME=3.mp3 をサーバーに<font color="red"></font>登録しました<BR>3.wav をサーバーに<font color="red"></font>登録しました<BR>4.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setA&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:46 HOST= ADDR=80.101.30.222
+	NAME=4.wav をサーバーに<font color="red"></font>登録しました<BR>5.mp3 をサーバーに<font color="red"></font>登録しました<BR>5.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setA&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:53 HOST= ADDR=80.101.30.222
+	NAME=6.mp3 をサーバーに<font color="red"></font>登録しました<BR>6.wav をサーバーに<font color="red"></font>登録しました<BR>7.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setA&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=06:57 HOST= ADDR=80.101.30.222
+	NAME=7.wav をサーバーに<font color="red"></font>登録しました<BR>8.mp3 をサーバーに<font color="red"></font>登録しました<BR>8.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setA&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=07:04 HOST= ADDR=80.101.30.222
+	NAME=9.mp3 をサーバーに<font color="red"></font>登録しました<BR>9.wav をサーバーに<font color="red"></font>登録しました<BR>10.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setA&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=07:18 HOST= ADDR=80.101.30.222
+	NAME=10.wav をサーバーに<font color="red"></font>登録しました<BR>11.mp3 をサーバーに<font color="red"></font>登録しました<BR>11.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setA&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=07:20 HOST= ADDR=80.101.30.222
+	NAME=12.mp3 をサーバーに<font color="red"></font>登録しました<BR>12.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setA&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=07:30 HOST= ADDR=80.101.30.222
+	NAME=1.mp3 をサーバーに<font color="red"></font>登録しました<BR>1.wav をサーバーに<font color="red"></font>登録しました<BR>2.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setB&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=07:33 HOST= ADDR=80.101.30.222
+	NAME=2.wav をサーバーに<font color="red"></font>登録しました<BR>3.mp3 をサーバーに<font color="red"></font>登録しました<BR>3.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setB&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=07:40 HOST= ADDR=80.101.30.222
+	NAME=4.mp3 をサーバーに<font color="red"></font>登録しました<BR>4.wav をサーバーに<font color="red"></font>登録しました<BR>5.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setB&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=07:43 HOST= ADDR=80.101.30.222
+	NAME=5.wav をサーバーに<font color="red"></font>登録しました<BR>6.mp3 をサーバーに<font color="red"></font>登録しました<BR>6.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setB&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=07:47 HOST= ADDR=80.101.30.222
+	NAME=7.mp3 をサーバーに<font color="red"></font>登録しました<BR>7.wav をサーバーに<font color="red"></font>登録しました<BR>8.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setB&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=07:48 HOST= ADDR=80.101.30.222
+	NAME=8.wav をサーバーに<font color="red"></font>登録しました<BR>9.mp3 をサーバーに<font color="red"></font>登録しました<BR>9.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setB&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=07:50 HOST= ADDR=80.101.30.222
+	NAME=10.mp3 をサーバーに<font color="red"></font>登録しました<BR>10.wav をサーバーに<font color="red"></font>登録しました<BR>11.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setB&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=07:51 HOST= ADDR=80.101.30.222
+	NAME=11.wav をサーバーに<font color="red"></font>登録しました<BR>12.mp3 をサーバーに<font color="red"></font>登録しました<BR>12.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setB&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/15 TIME=07:54 HOST= ADDR=80.101.30.222
+	NAME=filelistA.csv をサーバーに<font color="red"></font>登録しました<BR>filelistB.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2012/10/17 TIME=20:33 HOST= ADDR=131.180.29.22
+	NAME=ファイル情報は更新されませんでした
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+
+DATE=2013/01/23 TIME=02:15 HOST= ADDR=131.180.31.164
+	NAME=ディレクトリ setC を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+
+DATE=2013/01/30 TIME=06:09 HOST= ADDR=80.101.30.222
+	NAME=filelistR.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:16 HOST= ADDR=80.101.30.222
+	NAME=filelistB.csv をサーバーに<font color="red">上書き</font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:17 HOST= ADDR=80.101.30.222
+	NAME=filelistA.csv をサーバーに<font color="red">上書き</font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:26 HOST= ADDR=80.101.30.222
+	NAME=filelistA.csv を削除しました<BR>filelistB.csv を削除しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:26 HOST= ADDR=80.101.30.222
+	NAME=filelistA.csv をサーバーに<font color="red"></font>登録しました<BR>filelistB.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:28 HOST= ADDR=80.101.30.222
+	NAME=filelistB.csv を削除する権限がありません<BR>filelistA.csv を削除する権限がありません<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:28 HOST= ADDR=80.101.30.222
+	NAME=filelistB.csv を削除しました<BR>filelistA.csv を削除しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:28 HOST= ADDR=80.101.30.222
+	NAME=filelistA.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:28 HOST= ADDR=80.101.30.222
+	NAME=filelistA.csv を削除しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:31 HOST= ADDR=80.101.30.222
+	NAME=filelistA.csv をサーバーに<font color="red"></font>登録しました<BR>filelistB.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:32 HOST= ADDR=80.101.30.222
+	NAME=filelistB.csv を削除しました<BR>filelistA.csv を削除しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:32 HOST= ADDR=80.101.30.222
+	NAME=filelistA.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:33 HOST= ADDR=80.101.30.222
+	NAME=filelistA.csv をサーバーに<font color="red">上書き</font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:37 HOST= ADDR=80.101.30.222
+	NAME=filelistA.csv を削除する権限がありません<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:37 HOST= ADDR=80.101.30.222
+	NAME=filelistA.csv を削除しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:37 HOST= ADDR=80.101.30.222
+	NAME=filelistA.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:38 HOST= ADDR=80.101.30.222
+	NAME=filelistA.csv を削除しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:39 HOST= ADDR=80.101.30.222
+	NAME=filelistA.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:40 HOST= ADDR=80.101.30.222
+	NAME=filelistA.csv を削除しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:40 HOST= ADDR=80.101.30.222
+	NAME=filelistA.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:54 HOST= ADDR=80.101.30.222
+	NAME=filelist.csv を削除しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setA&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=06:55 HOST= ADDR=80.101.30.222
+	NAME=filelist.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setA&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:32 HOST= ADDR=80.101.30.222
+	NAME=setC を削除しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:32 HOST= ADDR=80.101.30.222
+	NAME=filelist.csv を削除しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setB&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:33 HOST= ADDR=80.101.30.222
+	NAME=filelist.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setB&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:36 HOST= ADDR=80.101.30.222
+	NAME=listening の情報を変更する権限がありません<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:36 HOST= ADDR=80.101.30.222
+	NAME=ファイルは更新されませんでした
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:37 HOST= ADDR=80.101.30.222
+	NAME=ディレクトリ setR を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:37 HOST= ADDR=80.101.30.222
+	NAME=setA の情報を変更しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:37 HOST= ADDR=80.101.30.222
+	NAME=setB の情報を変更しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:38 HOST= ADDR=80.101.30.222
+	NAME=filelist.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:39 HOST= ADDR=80.101.30.222
+	NAME=filelistB.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:48 HOST= ADDR=80.101.30.222
+	NAME=1.mp3 をサーバーに<font color="red"></font>登録しました<BR>1.wav をサーバーに<font color="red"></font>登録しました<BR>2.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:48 HOST= ADDR=80.101.30.222
+	NAME=2.wav をサーバーに<font color="red"></font>登録しました<BR>3.mp3 をサーバーに<font color="red"></font>登録しました<BR>3.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:49 HOST= ADDR=80.101.30.222
+	NAME=4.mp3 をサーバーに<font color="red"></font>登録しました<BR>4.wav をサーバーに<font color="red"></font>登録しました<BR>5.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:49 HOST= ADDR=80.101.30.222
+	NAME=5.wav をサーバーに<font color="red"></font>登録しました<BR>6.mp3 をサーバーに<font color="red"></font>登録しました<BR>6.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:50 HOST= ADDR=80.101.30.222
+	NAME=7.mp3 をサーバーに<font color="red"></font>登録しました<BR>7.wav をサーバーに<font color="red"></font>登録しました<BR>8.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:50 HOST= ADDR=80.101.30.222
+	NAME=8.wav をサーバーに<font color="red"></font>登録しました<BR>9.mp3 をサーバーに<font color="red"></font>登録しました<BR>9.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:51 HOST= ADDR=80.101.30.222
+	NAME=10.mp3 をサーバーに<font color="red"></font>登録しました<BR>10.wav をサーバーに<font color="red"></font>登録しました<BR>11.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:51 HOST= ADDR=80.101.30.222
+	NAME=11.wav をサーバーに<font color="red"></font>登録しました<BR>12.mp3 をサーバーに<font color="red"></font>登録しました<BR>12.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:52 HOST= ADDR=80.101.30.222
+	NAME=13.mp3 をサーバーに<font color="red"></font>登録しました<BR>13.wav をサーバーに<font color="red"></font>登録しました<BR>14.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:52 HOST= ADDR=80.101.30.222
+	NAME=14.wav をサーバーに<font color="red"></font>登録しました<BR>15.mp3 をサーバーに<font color="red"></font>登録しました<BR>15.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:53 HOST= ADDR=80.101.30.222
+	NAME=16.mp3 をサーバーに<font color="red"></font>登録しました<BR>16.wav をサーバーに<font color="red"></font>登録しました<BR>17.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:54 HOST= ADDR=80.101.30.222
+	NAME=17.wav をサーバーに<font color="red"></font>登録しました<BR>18.mp3 をサーバーに<font color="red"></font>登録しました<BR>18.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:55 HOST= ADDR=80.101.30.222
+	NAME=19.mp3 をサーバーに<font color="red"></font>登録しました<BR>19.wav をサーバーに<font color="red"></font>登録しました<BR>20.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:56 HOST= ADDR=80.101.30.222
+	NAME=20.wav をサーバーに<font color="red"></font>登録しました<BR>21.mp3 をサーバーに<font color="red"></font>登録しました<BR>21.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:57 HOST= ADDR=80.101.30.222
+	NAME=22.mp3 をサーバーに<font color="red"></font>登録しました<BR>22.wav をサーバーに<font color="red"></font>登録しました<BR>23.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=07:57 HOST= ADDR=80.101.30.222
+	NAME=23.wav をサーバーに<font color="red"></font>登録しました<BR>24.mp3 をサーバーに<font color="red"></font>登録しました<BR>24.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=13:17 HOST= ADDR=80.101.30.222
+	NAME=25.mp3 をサーバーに<font color="red"></font>登録しました<BR>25.wav をサーバーに<font color="red"></font>登録しました<BR>26.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=13:17 HOST= ADDR=80.101.30.222
+	NAME=26.wav をサーバーに<font color="red"></font>登録しました<BR>27.mp3 をサーバーに<font color="red"></font>登録しました<BR>27.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=13:18 HOST= ADDR=80.101.30.222
+	NAME=28.mp3 をサーバーに<font color="red"></font>登録しました<BR>28.wav をサーバーに<font color="red"></font>登録しました<BR>29.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=13:19 HOST= ADDR=80.101.30.222
+	NAME=29.wav をサーバーに<font color="red"></font>登録しました<BR>30.mp3 をサーバーに<font color="red"></font>登録しました<BR>30.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=13:20 HOST= ADDR=80.101.30.222
+	NAME=31.mp3 をサーバーに<font color="red"></font>登録しました<BR>31.wav をサーバーに<font color="red"></font>登録しました<BR>32.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=13:21 HOST= ADDR=80.101.30.222
+	NAME=32.wav をサーバーに<font color="red"></font>登録しました<BR>33.mp3 をサーバーに<font color="red"></font>登録しました<BR>33.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=13:23 HOST= ADDR=80.101.30.222
+	NAME=34.mp3 をサーバーに<font color="red"></font>登録しました<BR>34.wav をサーバーに<font color="red"></font>登録しました<BR>35.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=13:23 HOST= ADDR=80.101.30.222
+	NAME=35.wav をサーバーに<font color="red"></font>登録しました<BR>36.mp3 をサーバーに<font color="red"></font>登録しました<BR>36.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=13:25 HOST= ADDR=80.101.30.222
+	NAME=37.mp3 をサーバーに<font color="red"></font>登録しました<BR>37.wav をサーバーに<font color="red"></font>登録しました<BR>38.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=13:25 HOST= ADDR=80.101.30.222
+	NAME=38.wav をサーバーに<font color="red"></font>登録しました<BR>39.mp3 をサーバーに<font color="red"></font>登録しました<BR>39.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=13:30 HOST= ADDR=80.101.30.222
+	NAME=40.mp3 をサーバーに<font color="red"></font>登録しました<BR>40.wav をサーバーに<font color="red"></font>登録しました<BR>41.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=13:31 HOST= ADDR=80.101.30.222
+	NAME=41.wav をサーバーに<font color="red"></font>登録しました<BR>42.mp3 をサーバーに<font color="red"></font>登録しました<BR>42.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:06 HOST= ADDR=80.101.30.222
+	NAME=filelist1.csv をサーバーに<font color="red"></font>登録しました<BR>filelist2.csv をサーバーに<font color="red"></font>登録しました<BR>filelist3.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:07 HOST= ADDR=80.101.30.222
+	NAME=filelist4.csv をサーバーに<font color="red"></font>登録しました<BR>filelist5.csv をサーバーに<font color="red"></font>登録しました<BR>filelist6.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:07 HOST= ADDR=80.101.30.222
+	NAME=filelist7.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:19 HOST= ADDR=80.101.30.222
+	NAME=ディレクトリ set1 を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:20 HOST= ADDR=80.101.30.222
+	NAME=ディレクトリ set2 を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:20 HOST= ADDR=80.101.30.222
+	NAME=ディレクトリ set3 を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:20 HOST= ADDR=80.101.30.222
+	NAME=ディレクトリ set4 を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:20 HOST= ADDR=80.101.30.222
+	NAME=ディレクトリ set5 を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:20 HOST= ADDR=80.101.30.222
+	NAME=ディレクトリ set6 を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:20 HOST= ADDR=80.101.30.222
+	NAME=ディレクトリ set7 を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:21 HOST= ADDR=80.101.30.222
+	NAME=1.mp3 をサーバーに<font color="red"></font>登録しました<BR>1.wav をサーバーに<font color="red"></font>登録しました<BR>2.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set1&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:21 HOST= ADDR=80.101.30.222
+	NAME=2.wav をサーバーに<font color="red"></font>登録しました<BR>3.mp3 をサーバーに<font color="red"></font>登録しました<BR>3.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set1&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:21 HOST= ADDR=80.101.30.222
+	NAME=4.mp3 をサーバーに<font color="red"></font>登録しました<BR>4.wav をサーバーに<font color="red"></font>登録しました<BR>5.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set1&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:26 HOST= ADDR=80.101.30.222
+	NAME=5.wav をサーバーに<font color="red"></font>登録しました<BR>6.mp3 をサーバーに<font color="red"></font>登録しました<BR>6.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set1&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:28 HOST= ADDR=80.101.30.222
+	NAME=filelist.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set1&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:29 HOST= ADDR=80.101.30.222
+	NAME=1.mp3 をサーバーに<font color="red"></font>登録しました<BR>1.wav をサーバーに<font color="red"></font>登録しました<BR>2.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set2&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:30 HOST= ADDR=80.101.30.222
+	NAME=2.wav をサーバーに<font color="red"></font>登録しました<BR>3.mp3 をサーバーに<font color="red"></font>登録しました<BR>3.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set2&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:32 HOST= ADDR=80.101.30.222
+	NAME=4.mp3 をサーバーに<font color="red"></font>登録しました<BR>4.wav をサーバーに<font color="red"></font>登録しました<BR>5.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set2&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:32 HOST= ADDR=80.101.30.222
+	NAME=5.wav をサーバーに<font color="red"></font>登録しました<BR>6.mp3 をサーバーに<font color="red"></font>登録しました<BR>6.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set2&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:36 HOST= ADDR=80.101.30.222
+	NAME=filelist.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set2&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:36 HOST= ADDR=80.101.30.222
+	NAME=1.mp3 をサーバーに<font color="red"></font>登録しました<BR>1.wav をサーバーに<font color="red"></font>登録しました<BR>2.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set3&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:38 HOST= ADDR=80.101.30.222
+	NAME=2.wav をサーバーに<font color="red"></font>登録しました<BR>3.mp3 をサーバーに<font color="red"></font>登録しました<BR>3.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set3&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:39 HOST= ADDR=80.101.30.222
+	NAME=4.mp3 をサーバーに<font color="red"></font>登録しました<BR>4.wav をサーバーに<font color="red"></font>登録しました<BR>5.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set3&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:40 HOST= ADDR=80.101.30.222
+	NAME=5.wav をサーバーに<font color="red"></font>登録しました<BR>6.mp3 をサーバーに<font color="red"></font>登録しました<BR>6.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set3&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:40 HOST= ADDR=80.101.30.222
+	NAME=filelist.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set3&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:41 HOST= ADDR=80.101.30.222
+	NAME=1.mp3 をサーバーに<font color="red"></font>登録しました<BR>1.wav をサーバーに<font color="red"></font>登録しました<BR>2.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set4&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:42 HOST= ADDR=80.101.30.222
+	NAME=2.wav をサーバーに<font color="red"></font>登録しました<BR>3.mp3 をサーバーに<font color="red"></font>登録しました<BR>3.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set4&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:42 HOST= ADDR=80.101.30.222
+	NAME=4.mp3 をサーバーに<font color="red"></font>登録しました<BR>4.wav をサーバーに<font color="red"></font>登録しました<BR>5.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set4&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:44 HOST= ADDR=80.101.30.222
+	NAME=5.wav をサーバーに<font color="red"></font>登録しました<BR>6.mp3 をサーバーに<font color="red"></font>登録しました<BR>6.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set4&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:45 HOST= ADDR=80.101.30.222
+	NAME=filelist.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set4&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:45 HOST= ADDR=80.101.30.222
+	NAME=1.mp3 をサーバーに<font color="red"></font>登録しました<BR>1.wav をサーバーに<font color="red"></font>登録しました<BR>2.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:47 HOST= ADDR=80.101.30.222
+	NAME=2.wav をサーバーに<font color="red"></font>登録しました<BR>3.mp3 をサーバーに<font color="red"></font>登録しました<BR>3.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:47 HOST= ADDR=80.101.30.222
+	NAME=4.mp3 をサーバーに<font color="red"></font>登録しました<BR>4.wav をサーバーに<font color="red"></font>登録しました<BR>5.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:48 HOST= ADDR=80.101.30.222
+	NAME=5.wav をサーバーに<font color="red"></font>登録しました<BR>6.mp3 をサーバーに<font color="red"></font>登録しました<BR>6.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:49 HOST= ADDR=80.101.30.222
+	NAME=filelist.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:50 HOST= ADDR=80.101.30.222
+	NAME=1.mp3 をサーバーに<font color="red"></font>登録しました<BR>1.wav をサーバーに<font color="red"></font>登録しました<BR>2.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set6&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:50 HOST= ADDR=80.101.30.222
+	NAME=2.wav をサーバーに<font color="red"></font>登録しました<BR>3.mp3 をサーバーに<font color="red"></font>登録しました<BR>3.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set6&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:51 HOST= ADDR=80.101.30.222
+	NAME=4.mp3 をサーバーに<font color="red"></font>登録しました<BR>4.wav をサーバーに<font color="red"></font>登録しました<BR>5.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set6&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:51 HOST= ADDR=80.101.30.222
+	NAME=5.wav をサーバーに<font color="red"></font>登録しました<BR>6.mp3 をサーバーに<font color="red"></font>登録しました<BR>6.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set6&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:52 HOST= ADDR=80.101.30.222
+	NAME=filelist.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set6&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:52 HOST= ADDR=80.101.30.222
+	NAME=1.mp3 をサーバーに<font color="red"></font>登録しました<BR>1.wav をサーバーに<font color="red"></font>登録しました<BR>2.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set7&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:53 HOST= ADDR=80.101.30.222
+	NAME=2.wav をサーバーに<font color="red"></font>登録しました<BR>3.mp3 をサーバーに<font color="red"></font>登録しました<BR>3.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set7&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:54 HOST= ADDR=80.101.30.222
+	NAME=4.mp3 をサーバーに<font color="red"></font>登録しました<BR>4.wav をサーバーに<font color="red"></font>登録しました<BR>5.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set7&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:55 HOST= ADDR=80.101.30.222
+	NAME=5.wav をサーバーに<font color="red"></font>登録しました<BR>6.mp3 をサーバーに<font color="red"></font>登録しました<BR>6.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set7&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=14:56 HOST= ADDR=80.101.30.222
+	NAME=filelist.csv をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set7&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=18:11 HOST= ADDR=131.180.31.164
+	NAME=filelist2.csv をサーバーに<font color="red">上書き</font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/30 TIME=18:13 HOST= ADDR=131.180.31.164
+	NAME=filelist.csv をサーバーに<font color="red">上書き</font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/set2&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/31 TIME=18:10 HOST= ADDR=80.101.30.222
+	NAME=filelistR.csv をサーバーに<font color="red">上書き</font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/word&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/01/31 TIME=18:11 HOST= ADDR=80.101.30.222
+	NAME=filelist.csv をサーバーに<font color="red">上書き</font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/listening/setR&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17
+
+DATE=2013/06/28 TIME=22:27 HOST= ADDR=80.101.30.222
+	NAME=word を削除する権限がありません<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+
+DATE=2013/06/28 TIME=22:28 HOST= ADDR=80.101.30.222
+	NAME=word を削除しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+
+DATE=2013/06/28 TIME=22:28 HOST= ADDR=80.101.30.222
+	NAME=listening の情報を変更する権限がありません<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+
+DATE=2013/06/28 TIME=22:29 HOST= ADDR=80.101.30.222
+	NAME=listening の情報を変更する権限がありません<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+
+DATE=2013/10/16 TIME=18:17 HOST= ADDR=94.56.129.72
+	NAME=ディレクトリ wm を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:18 HOST= ADDR=94.56.129.72
+	NAME=ファイルは更新されませんでした
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:19 HOST= ADDR=94.56.129.72
+	NAME=ディレクトリ set2 を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:20 HOST= ADDR=94.56.129.72
+	NAME=ディレクトリ set3 を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:20 HOST= ADDR=94.56.129.72
+	NAME=ディレクトリ set4 を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:20 HOST= ADDR=94.56.129.72
+	NAME=ディレクトリ set5 を作成しました
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:21 HOST= ADDR=94.56.129.72
+	NAME=1.mp3 をサーバーに<font color="red"></font>登録しました<BR>1.wav をサーバーに<font color="red"></font>登録しました<BR>2.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set2&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:21 HOST= ADDR=94.56.129.72
+	NAME=2.wav をサーバーに<font color="red"></font>登録しました<BR>3.mp3 をサーバーに<font color="red"></font>登録しました<BR>3.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set2&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:21 HOST= ADDR=94.56.129.72
+	NAME=4.mp3 をサーバーに<font color="red"></font>登録しました<BR>4.wav をサーバーに<font color="red"></font>登録しました<BR>5.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set2&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:22 HOST= ADDR=94.56.129.72
+	NAME=5.wav をサーバーに<font color="red"></font>登録しました<BR>6.mp3 をサーバーに<font color="red"></font>登録しました<BR>6.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set2&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:22 HOST= ADDR=94.56.129.72
+	NAME=1.mp3 をサーバーに<font color="red"></font>登録しました<BR>1.wav をサーバーに<font color="red"></font>登録しました<BR>2.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set3&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:23 HOST= ADDR=94.56.129.72
+	NAME=2.wav をサーバーに<font color="red"></font>登録しました<BR>3.mp3 をサーバーに<font color="red"></font>登録しました<BR>3.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set3&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:23 HOST= ADDR=94.56.129.72
+	NAME=4.mp3 をサーバーに<font color="red"></font>登録しました<BR>4.wav をサーバーに<font color="red"></font>登録しました<BR>5.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set3&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:23 HOST= ADDR=94.56.129.72
+	NAME=5.wav をサーバーに<font color="red"></font>登録しました<BR>6.mp3 をサーバーに<font color="red"></font>登録しました<BR>6.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set3&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:24 HOST= ADDR=94.56.129.72
+	NAME=7.mp3 をサーバーに<font color="red"></font>登録しました<BR>7.wav をサーバーに<font color="red"></font>登録しました<BR>8.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set3&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:24 HOST= ADDR=94.56.129.72
+	NAME=8.wav をサーバーに<font color="red"></font>登録しました<BR>9.mp3 をサーバーに<font color="red"></font>登録しました<BR>9.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set3&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:26 HOST= ADDR=94.56.129.72
+	NAME=1.mp3 をサーバーに<font color="red"></font>登録しました<BR>1.wav をサーバーに<font color="red"></font>登録しました<BR>2.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set4&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:27 HOST= ADDR=94.56.129.72
+	NAME=2.wav をサーバーに<font color="red"></font>登録しました<BR>3.mp3 をサーバーに<font color="red"></font>登録しました<BR>3.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set4&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:27 HOST= ADDR=94.56.129.72
+	NAME=4.mp3 をサーバーに<font color="red"></font>登録しました<BR>4.wav をサーバーに<font color="red"></font>登録しました<BR>5.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set4&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:27 HOST= ADDR=94.56.129.72
+	NAME=5.wav をサーバーに<font color="red"></font>登録しました<BR>6.mp3 をサーバーに<font color="red"></font>登録しました<BR>6.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set4&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:28 HOST= ADDR=94.56.129.72
+	NAME=7.mp3 をサーバーに<font color="red"></font>登録しました<BR>7.wav をサーバーに<font color="red"></font>登録しました<BR>8.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set4&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:28 HOST= ADDR=94.56.129.72
+	NAME=8.wav をサーバーに<font color="red"></font>登録しました<BR>9.mp3 をサーバーに<font color="red"></font>登録しました<BR>9.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set4&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:28 HOST= ADDR=94.56.129.72
+	NAME=10.mp3 をサーバーに<font color="red"></font>登録しました<BR>10.wav をサーバーに<font color="red"></font>登録しました<BR>11.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set4&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:29 HOST= ADDR=94.56.129.72
+	NAME=11.wav をサーバーに<font color="red"></font>登録しました<BR>12.mp3 をサーバーに<font color="red"></font>登録しました<BR>12.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set4&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:34 HOST= ADDR=94.56.129.72
+	NAME=1.mp3 をサーバーに<font color="red"></font>登録しました<BR>1.wav をサーバーに<font color="red"></font>登録しました<BR>2.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:34 HOST= ADDR=94.56.129.72
+	NAME=2.wav をサーバーに<font color="red"></font>登録しました<BR>3.mp3 をサーバーに<font color="red"></font>登録しました<BR>3.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:35 HOST= ADDR=94.56.129.72
+	NAME=4.mp3 をサーバーに<font color="red"></font>登録しました<BR>4.wav をサーバーに<font color="red"></font>登録しました<BR>5.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:35 HOST= ADDR=94.56.129.72
+	NAME=5.wav をサーバーに<font color="red"></font>登録しました<BR>6.mp3 をサーバーに<font color="red"></font>登録しました<BR>6.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:35 HOST= ADDR=94.56.129.72
+	NAME=7.mp3 をサーバーに<font color="red"></font>登録しました<BR>7.wav をサーバーに<font color="red"></font>登録しました<BR>8.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:36 HOST= ADDR=94.56.129.72
+	NAME=8.wav をサーバーに<font color="red"></font>登録しました<BR>9.mp3 をサーバーに<font color="red"></font>登録しました<BR>9.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:36 HOST= ADDR=94.56.129.72
+	NAME=10.mp3 をサーバーに<font color="red"></font>登録しました<BR>10.wav をサーバーに<font color="red"></font>登録しました<BR>11.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:37 HOST= ADDR=94.56.129.72
+	NAME=ファイルのサイズが大きすぎるか，または不正なデータが送られています．<P>エラーメッセージ : <BR> error in FormData2::_decode: header not found (invalid input data)</P> 問題が解決しない場合は，管理者に問い合わせてみて下さい
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:37 HOST= ADDR=94.56.129.72
+	NAME=ファイルのサイズが大きすぎるか，または不正なデータが送られています．<P>エラーメッセージ : <BR> error in FormData2::_decode: header not found (invalid input data)</P> 問題が解決しない場合は，管理者に問い合わせてみて下さい
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:38 HOST= ADDR=94.56.129.72
+	NAME=11.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:38 HOST= ADDR=94.56.129.72
+	NAME=12.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:38 HOST= ADDR=94.56.129.72
+	NAME=12.mp3 は既に登録されています．別の名前で保存して下さい<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:38 HOST= ADDR=94.56.129.72
+	NAME=12.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:39 HOST= ADDR=94.56.129.72
+	NAME=13.mp3 をサーバーに<font color="red"></font>登録しました<BR>13.wav をサーバーに<font color="red"></font>登録しました<BR>14.mp3 をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
+DATE=2013/10/16 TIME=18:39 HOST= ADDR=94.56.129.72
+	NAME=14.wav をサーバーに<font color="red"></font>登録しました<BR>15.mp3 をサーバーに<font color="red"></font>登録しました<BR>15.wav をサーバーに<font color="red"></font>登録しました<BR>
+	REFERER=http://www.waschbaerli.com/dictation/uploader/upload.cgi?page=Main&dir=/wm/set5&sort=date
+	AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+
