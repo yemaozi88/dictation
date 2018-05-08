@@ -21,8 +21,8 @@
 class c_pagestyle
 {	
 	// pre defined variables
-	//private $home_url	= "http://www.waschbaerli.com/dictation/index.php";
-        private $home_url       = "http://localhost/waschbaerli/dictation/index.php";
+	private $home_url	= "http://www.waschbaerli.com/dictation/index.php";
+        //private $home_url       = "http://localhost/waschbaerli/dictation/index.php";
 	private $site_title	= "English Word Quiz(test version)";	
 	private $char_set 	= 'Shift_JIS';
 
@@ -63,11 +63,41 @@ class c_pagestyle
 	<title>$this->site_title</title>
 	<link rel="stylesheet" href="$this->css_dir" type="text/css" />
 </head>
+EOF;
+        }
 
-<body>
 
+        public function print_body_begin(){
+            
+            echo <<<EOF
+            <body>
+EOF;
+        }
+        
+        
+        public function print_body_begin_timer_onload(){
+            
+            echo <<<EOF
+            <body onload="tid = setInterval('countTime()', 10)" onunload="clearInterval(tid)">
+EOF;
+	}
+	
+        
+        public function print_home_button(){
+            echo <<<EOF
+	<div id="pannavi">
+<a href=$this->home_url>HOME</a> > $this->page_title
+	</div>
+EOF;
+	}
+
+        
+        public function print_main_begin()
+        {
+            echo <<<EOF
 <!-- begin: main -->
 <div id="main">
+	
 	<div id="header"><!-- begin: header -->
 		<h1><!-- You should be the change that you want to see in the world - Mahatma Gandhi --></h1>
 		<table border="0" cellpadding="0" cellspacing="0" width="900">
@@ -85,92 +115,8 @@ class c_pagestyle
 <!-- begin: main contents -->
 	<div id="container">
 	<div id="contents">
-	
-	
-	<div id="pannavi">
-<a href=$this->home_url>HOME</a> > $this->page_title
-	</div>
 EOF;
 	}
-	
-	
-		public function print_header_top()
-	{
-		echo <<<EOF
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
-<head>
-	<meta http-equiv="Content/Type" content="application/xhtml+xml; charset=$this->char_set" />
-	<!-- <meta name="keywords" content="type keywords" /> //>
-	<!-- <meta name="description" content="type description" /> -->
-	<title>$this->site_title</title>
-	<link rel="stylesheet" href="$this->css_dir" type="text/css" />
-</head>
-
-<body>
-
-<!-- begin: main -->
-<div id="main">
-	
-	<div id="header"><!-- begin: header -->
-		<h1><!-- You should be the change that you want to see in the world - Mahatma Gandhi --></h1>
-		<table border="0" cellpadding="0" cellspacing="0" width="900">
-			<tr>
-				<td><div id="table-left"><h2>$this->page_title</h2></div></td>
-			<!--
-				<td><div id="table-right"><b>TEL&FAX: +81-3-5841-6393</b><br /><img src="src/icon.gif" alt="" border="0" /> <a href="profile.html">会社情報</a>　<img src="src/icon.gif" alt="" border="0" /> <a href="contact.html">お問い合わせ</a></div></td>
-			-->
-			</tr>
-		</table>
-		<hr>
-	</div><!-- end: header -->
-	
-	
-<!-- begin: main contents -->
-	<div id="container">
-	<div id="contents">
-EOF;
-	}
-
-	
-		public function print_header_timer_start()
-	{
-		echo <<<EOF
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
-<head>
-	<meta http-equiv="Content/Type" content="application/xhtml+xml; charset=$this->char_set" />
-	<title>$this->site_title</title>
-	<link rel="stylesheet" href="$this->css_dir" type="text/css" />
-</head>
-
-<body onload="tid = setInterval('countTime()', 10)" onunload="clearInterval(tid)">
-	
-<!-- begin: main -->
-<div id="main">
-	
-	<div id="header"><!-- begin: header -->
-	<h1></h1>
-		<table border="0" cellpadding="0" cellspacing="0" width="900">
-			<tr>
-				<td><div id="table-left"><h2>$this->page_title</h2></div></td>
-			</tr>
-		</table>
-		<hr>
-	</div><!-- end: header -->
-	
-	
-<!-- begin: main contents -->
-	<div id="container">
-	<div id="contents">
-	
-	
-	<div id="pannavi">
-<a href=$this->home_url>HOME</a> > $this->page_title
-	</div>
-EOF;
-	}
-	
 	
 	public function print_groupSelecter($logo_dir)
 	{
@@ -258,8 +204,10 @@ EOF;
 <a href="http://www.waschbaerli.com/dictation/eword/quiz/index.php?withWav=0&isTest=1">見て答える問題（テスト）</a>
 
 <p>作動記憶クイズ</p>
-<a href="http://www.waschbaerli.com/dictation/wm/index.php?isTest=0">ベータ版(練習)</a>
-<a href="http://www.waschbaerli.com/dictation/wm/index.php?isTest=1">ベータ版(テスト)</a>
+<a href="http://www.waschbaerli.com/dictation/wm/lst/index.php?isTest=0">聴いて答える問題(練習)</a>
+<a href="http://www.waschbaerli.com/dictation/wm/lst/index.php?isTest=1">聴いて答える問題(テスト)</a>
+<a href="http://www.waschbaerli.com/dictation/wm/rst/index.php?isTest=0">見て答える問題(練習)</a>
+<a href="http://www.waschbaerli.com/dictation/wm/rst/index.php?isTest=1">見て答える問題(テスト)</a>
 </br>
 		</div><!-- end:menulist -->
 

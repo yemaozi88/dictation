@@ -51,6 +51,10 @@ $sqlTable = 'eword_quiz';
 // ====================
 
 $i_pagestyle->print_header();
+$i_pagestyle->print_body_begin();
+$i_pagestyle->print_main_begin();
+$i_pagestyle->print_home_button();
+
 
 if($isDebug == true)
 {

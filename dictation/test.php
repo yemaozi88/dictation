@@ -72,6 +72,10 @@ $i_dtw->dtw();
 // ====================
 
 $i_pagestyle->print_header();
+$i_pagestyle->print_body_begin();
+$i_pagestyle->print_main_begin();
+$i_pagestyle->print_home_button();
+
 $i_dtw->dispDmat();
 
 if($isDebug == true)

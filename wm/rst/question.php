@@ -1,15 +1,14 @@
 ﻿<?php
 /*
- * 2013/10/09
- * play a sound file for the working memory test of yamauchi project
+ * 2018/05/05
+ * show the quiz for the working memory test of yamauchi project
  *
  * RECEIVE
  * SEND
  *
- * HISTORY
- * 2014/01/25 display the first letter of the last word
- * 2014/01/24 change the order of the answer forms
- *
+ * NOTE:
+ * qNum: quiz_num in the database.
+ * 
  * AUTHOR
  * Aki Kunikoshi
  * 428968@gmail.com
@@ -20,18 +19,20 @@
 // configuration
 // ====================
 
-$isDebug = false;
+$isDebug = true;
 
-$config   = parse_ini_file("config.ini", false);
-include("../_class/c_pagestyle.php");
-include("../_class/c_mysql.php");
+$config   = parse_ini_file("../config.ini", false);
+include("../../_class/c_pagestyle.php");
+include("../../_class/c_mysql.php");
 
 // ====================
 
 $srcDir    = $config["srcDir"];
+$jsDir     = $config["jsDir"];
 $pageTitle = $config["pageTitle"];
 $wavDir	   = $config["wavDir"];
 $qNumMax   = $config["qNumMax"];
+$timeLimit = $config["timeLimit"];
 
 $sqlTableQuestion = $config["sqlTableQuestion"];
 $sqlTableResult   = $config["sqlTableResult"];
@@ -67,7 +68,6 @@ if($isFirst == 1) // if it is the first time
 		$qOrder[$i] = $_POST["q$i"];
 	}	    
 }
-else // if it is NOT the first time
 {
     	$isTest     = $_GET['isTest'];
 	$trialNum   = $_GET['trialNum'];
@@ -82,7 +82,7 @@ else // if it is NOT the first time
 	}
 }
 
-$wavNum = $qSet * ( $qOrder[$QuizNumber] - 1 ) + 1;
+//$textNum = $qSet * ( $qOrder[$QuizNumber] - 1 ) + 1;
 
 
 // ====================
@@ -90,6 +90,9 @@ $wavNum = $qSet * ( $qOrder[$QuizNumber] - 1 ) + 1;
 // ====================
 
 $i_pagestyle->print_header();
+$i_pagestyle->print_body_begin();
+$i_pagestyle->print_main_begin();
+$i_pagestyle->print_home_button();
 
 if($isDebug == true)
 {
@@ -103,120 +106,120 @@ if($isDebug == true)
 	qOrder: $qOrder[1],$qOrder[2],$qOrder[3]</br>
 	QuizNumber: $QuizNumber</br>
 	qNumMax: $qNumMax</br>
-	wavDir: $wavDir</br>
-	wavNum: $wavNum</br>
 	sqlTableQuestion: $sqlTableQuestion</br>
 	";
 }
 
 echo <<<EOF
-<form action="result.php" method="post" >
+
 	<h2>第 $QuizNumber 問</h2>
 	<script type="text/javascript"> var qWord1 = []; </script>
-	<script type="text/javascript" src="play.js"></script>
-	<button type="button" id="playbutton" onclick="clickButton()" disabled="true">問題の再生</button>
+	<script type="text/javascript"> var qSentence = []; </script>
+        
+<!--    <script type="text/javascript" src="play.js"></script> -->
+        
+        <script type="text/javascript"> timeMax = $timeLimit</script>
+<!--    <script type="text/javascript" src="$jsDir/timer3.js"></script> -->
+        <script type="text/javascript" src="timer3.js"></script>
 EOF;
 
 for ($i = 1; $i <= $qSet; $i++)
 {
 	$sql_select = "SELECT quiz_num, question, last_word, answer
 		FROM $sqlTableQuestion
-		WHERE quiz_set = $qSet AND quiz_num = $wavNum";
+		WHERE is_listening = 0 AND is_test = $isTest AND quiz_set = $qSet AND quiz_num = $QuizNumber + $i - 1";
 	$sql_result = mysql_query($sql_select);
 
 	$row = mysql_fetch_array($sql_result, MYSQL_ASSOC);
 
-	$qNum = $row["quiz_num"];
-
-	/*
-	 * extract the last word from the question sentence
-	 * a period should be removed
-	 */
-	$question_ = $row["question"];
-	$question  = preg_split("/[\s]+/", $question_);
-	$wNum      = count($question);
+        $qNum      = $row["quiz_num"];
+	$qSentence = $row["question"];
 	$qWord     = $row["last_word"];
-	$qWord1    = $qWord[0];
-	
+        $qWord1    = $qWord[0];
+        
 	/*
 	 * send variable 'qWord' to Javascript
 	 */
 echo <<<EOF
 
-	<script type="text/javascript"> 
+        <script type="text/javascript"> 
+            qWord1[$i]    = "$qWord1";
+            qSentence[$i] = "$qSentence";
+        </script>
 EOF;
-
-	echo "qWord1[$i] = \"$qWord1\"";
-	
+}        
+    
+$i = 1;
 echo <<<EOF
-	</script>
+<h3>文の正誤</h3>
+<center>
+<table border="10" cellpadding="2" cellspacing="0" style="border-collapse: collapse; border-style: solid; border-width: 2px;">
+    <tr>
+        <td width="300" align="center">
+            <div id="qTitle">$qSet 文中 第 0 文目</div>
+        </td>
+        <td width="150" align="center" bgcolor="#FFFFFF">
+            <span id="RemainingTime" style="font-size:24px;">$timeLimit:00</span> 秒
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" height="100">
+            <div id="qText"><center>ここに問題が表示されます。</center></div>            
+        </td>
+    </tr>
+
+    <tr >
+        <td align="center" valign="middle">
+            <div id="aTF"></div>
+        </td>
+        
+        <td>
+            <center><button type="button" id="showbutton" onclick="clickButton_show($i, $qSet)">問題を見る</button></center>
+        </td>
+
+<!--
+        <td align = "center">
+            <button type="button" id="goNext" disabled onclick="clickButton_next($i, $qSet)">
+                次へ
+            </button>              
+        </td>
+-->
+    </tr>
+</table>
+</center>
+
+<br>
+<h3>最後の単語</h3>
+<form action="result.php" method="post">
 EOF;
 
-	
-	if ($i == 1)
-	{
+for ($i = 1; $i <= $qSet; $i++){
 echo <<<EOF
-	
-	<audio id="sentence" preload="auto" oncanplay="wavCanPlay();" onended="setTimeout('wavPlayNext(2)',1500);">
-
+    <div id="lastWord$i"></div>
 EOF;
-	}
-	elseif ($i < $qSet)
-	{
-		$iNext = $i + 1;
-echo <<<EOF
-	
-	<audio id="sentence$i" preload="auto" onended="setTimeout('wavPlayNext($iNext)',1500);">
-
-EOF;
-	}
-	else
-	{
-echo <<<EOF
-	
-	<audio id="sentence$i" preload="auto" onended="setTimeout('dispQuestion($qSet)',1500);">
-
-EOF;
-	}
-	
-echo <<<EOF
-
-		<source src="$wavDir/set$qSet/$wavNum.wav" type="audio/wav" />
-		<source src="$wavDir/set$qSet/$wavNum.mp3" type="audio/mp3" />
-		<p>Your browser can not open wav file. Please install appropriate plugin.</p>
-	</audio>
-	
-EOF;
-	
-	$wavNum = $wavNum + 1;	
 }
 
-
-for ($i = 1; $i <= $qSet; $i++)
-{
 echo <<<EOF
+<div id="sendResult"></div>
+    <!-- Hidden Variables -->
+    <p><input type="hidden" value="$isTest" id="isTest" name="isTest" /></p>
+    <p><input type="hidden" value="$isFirst" id="isFirst" name="isFirst" /></p>
+    <p><input type="hidden" value="1" id="isFirst" name="isFirst" /></p>
+    <p><input type="hidden" value="$trialNum" id="trialNum" name="trialNum" /></p>
+    <p><input type="hidden" value="$UserName" id="UserName" name="UserName" /></p>
+    <p><input type="hidden" value="$GroupName" id="GroupName" name="GroupName" /></p>
+    <p><input type="hidden" value="$qSet" id="qSet" name="qSet" /></p>
+    <p><input type="hidden" id="QuizNumber" name="QuizNumber" value="$QuizNumber" /></p>
 
-	<div id="aTitle$i"></div>
-	<div id="aTrue$i"></div>
-	<div id="aWord$i"></div>
+    <!-- not used, just to let timer work. -->
+    <p><input type="hidden" value="" id="ElapsedTime" name="ElapsedTime" /></p>
+    <p><input type="hidden" value="" id="hiddenRemainingTime" name="hiddenRemainingTime" /></p>          
+    
+    <!-- User answers. -->
+    <p><input type="text" value="" id="ElapsedTimeAll" name="ElapsedTimeAll" /></p>
+    <p><input type="text" value="" id="TFall" name="TFall" /></p>
 
 EOF;
-}
-	
-echo <<<EOF
-<div id="goNext"></div>
-
-	<!-- Hidden Variables -->
-	<p><input type="hidden" value="$isTest" id="isTest" name="isTest" /></p>
-	<p><input type="hidden" value="$isFirst" id="isFirst" name="isFirst" /></p>
-	<p><input type="hidden" value="1" id="isFirst" name="isFirst" /></p>
-	<p><input type="hidden" value="$trialNum" id="trialNum" name="trialNum" /></p>
-	<p><input type="hidden" value="$UserName" id="UserName" name="UserName" /></p>
-	<p><input type="hidden" value="$GroupName" id="GroupName" name="GroupName" /></p>
-	<p><input type="hidden" value="$qSet" id="qSet" name="qSet" /></p>
-	<p><input type="hidden" id="QuizNumber" name="QuizNumber" value="$QuizNumber" /></p>
-EOF;
-
 
 // question order
 echo "\n<p>\n";
@@ -224,11 +227,8 @@ for($i = 1; $i < $qNumMax+1; $i++){
 	echo "<input type=\"hidden\" value=\"" . $qOrder[$i] . "\" id=\"q$i\" name=\"q" . $i . "\" />\n";
 }
 echo "</p>\n";
-
-echo <<<EOF
-</form>
-EOF;
-
+echo "</form>";
+           
 $i_mysql->close();
 $i_pagestyle->print_footer();
 ?>

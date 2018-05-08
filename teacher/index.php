@@ -33,6 +33,10 @@ $i_pagestyle->set_variables($pageTitle, $srcDir);
 // ====================
 
 $i_pagestyle->print_header();
+$i_pagestyle->print_body_begin();
+$i_pagestyle->print_main_begin();
+$i_pagestyle->print_home_button();
+
 
 if($isDebug == true)
 {
@@ -47,11 +51,11 @@ echo <<<EOF
 	<h3>英単語クイズ</h3>
 	<ul>
 		<li>
-<a href="http://www.waschbaerli.com/dictation/uploader/upload.cgi" target="_blank">問題のアップロード</a>
+<a href="../uploader/upload.cgi" target="_blank">問題のアップロード</a>
 		</li>
 
 		<li>
-<a href="http://www.waschbaerli.com/dictation/eword/statistics/select_group.php">成績の閲覧</a>
+<a href="./statistics/select_group.php">成績の閲覧</a>
 		</li>
 	</ul>
 	

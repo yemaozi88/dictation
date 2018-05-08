@@ -1,16 +1,10 @@
 ﻿<?php
 /*
- * 2013/10/17
+ * 2018/05/04
  * index page for working memory test of yamauchi project
  *
  * SEND
  * intro.php
- *
- * NOTE
- * index.php is based on eword/quiz/index.php
- *
- * HISTORY
- * 2013/12/18 variable isTest is gotten from URL
  *
  * AUTHOR
  * Aki Kunikoshi
@@ -24,8 +18,8 @@
 
 $isDebug = false;
 
-$config  = parse_ini_file("config.ini", false);
-include("../_class/c_pagestyle.php");
+$config  = parse_ini_file("../config.ini", false);
+include("../../_class/c_pagestyle.php");
 
 
 // ====================
@@ -47,6 +41,10 @@ $i_pagestyle->set_variables($pageTitle, $srcDir);
 // ====================
 
 $i_pagestyle->print_header();
+$i_pagestyle->print_body_begin();
+$i_pagestyle->print_main_begin();
+$i_pagestyle->print_home_button();
+
 
 if($isDebug == true)
 {

@@ -22,13 +22,14 @@
 
 $isDebug = false;
 
-$config   = parse_ini_file("config.ini", false);
-include("../_class/c_pagestyle.php");
-include("../_class/c_mysql.php");
+$config   = parse_ini_file("../config.ini", false);
+include("../../_class/c_pagestyle.php");
+include("../../_class/c_mysql.php");
 
 // ====================
 
 $srcDir    = $config["srcDir"];
+$jsDir     = $config["jsDir"];
 $pageTitle = $config["pageTitle"];
 $wavDir	   = $config["wavDir"];
 $qNumMax   = $config["qNumMax"];
@@ -90,6 +91,10 @@ $wavNum = $qSet * ( $qOrder[$QuizNumber] - 1 ) + 1;
 // ====================
 
 $i_pagestyle->print_header();
+$i_pagestyle->print_body_begin();
+$i_pagestyle->print_main_begin();
+$i_pagestyle->print_home_button();
+
 
 if($isDebug == true)
 {

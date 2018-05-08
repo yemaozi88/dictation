@@ -25,7 +25,11 @@ $i_pagestyle->set_variables($pageTitle, $srcDir);
 // output page
 // ====================
 
-$i_pagestyle->print_header_top();
+$i_pagestyle->print_header();
+$i_pagestyle->print_body_begin();
+$i_pagestyle->print_main_begin();
+
+
 
 echo <<<EOF
 <h2>速読と速聴のための英単語力クイズへようこそ！</h2>

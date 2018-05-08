@@ -96,6 +96,7 @@ elseif($withWav == 0 && $isTest == 0)
 	$pageTitle = '見て答える問題（練習）';
 }
 $srcDir   = $config["srcDir"];
+$jsDir    = $config["jsDir"];
 $qDir 	  = $config["qDir"];
 $qList	  = $qDir . "/set" . $qSet . "/filelist.csv";
 $wavDir   = $qDir . "/set" . $qSet;
@@ -138,14 +139,18 @@ $qLevel  	= $Q[7];
 // output page
 // ====================
 
-if($withWav == 0)
+$i_pagestyle->print_header();
+if($withWav == 1)
 {
-	$i_pagestyle->print_header_timer_start();
+        $i_pagestyle->print_body_begin();
 }
 else
 {
-	$i_pagestyle->print_header();
+        $i_pagestyle->print_body_begin_timer_onload();
 }
+$i_pagestyle->print_main_begin();
+$i_pagestyle->print_home_button();
+
 
 
 if($isDebug == true)
@@ -180,7 +185,7 @@ echo <<<EOF
 <form action="result.php" method="post" >
 	<h2>第 $QuizNumber 問</h2>
 	<script type="text/javascript"> timeMax = 20</script>
-    <script type="text/javascript" src="timer3.js"></script>
+        <script type="text/javascript" src="$jsDir/timer3.js"></script>
 	
 	<p align="center">
 	<table border="0">

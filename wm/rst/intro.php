@@ -1,17 +1,12 @@
 ﻿<?php
 /*
- * 2012/10/13
+ * 2018/05/04
  * introduction page for working memory test of yamauchi project
  *
  * RECEIVE
  * index.php
  * SEND
  * question.php
- *
- * NOTE
- * intro.php is based on test/intro.cgi
- *
- * HISTORY
  *
  * AUTHOR
  * Aki Kunikoshi
@@ -25,9 +20,9 @@
 
 $isDebug = false;
 
-$config    = parse_ini_file("config.ini", false);
-include("../_class/c_pagestyle.php");
-include("../_class/c_mysql.php");
+$config    = parse_ini_file("../config.ini", false);
+include("../../_class/c_pagestyle.php");
+include("../../_class/c_mysql.php");
 
 // ====================
 
@@ -98,6 +93,10 @@ $qOrder[0] = 0;
 // ====================
 
 $i_pagestyle->print_header();
+$i_pagestyle->print_body_begin();
+$i_pagestyle->print_main_begin();
+$i_pagestyle->print_home_button();
+
 
 if($isDebug == true)
 {
@@ -118,12 +117,10 @@ echo <<<EOF
 	<h2>回答方法の説明</h2>
 	こんにちは $UserName さん。<br>
 	<br>
-	これはあなたが一度にどれだけの英文を処理できるかを測定するテストです。<br>
-	「問題を再生」ボタンを押すと、$qSet 文の英文が連続して流れます。<br>
-	英文は一度しか流れず、聞きなおすことはできません。<br>
-	<br>
-	再生が終了すると、1.5秒後に解答欄が表示されます。<br>
-	それぞれの文章の最後の単語、および内容の正誤を答えてください。<br>
+        これはあなたが一度にどれだけの英文を処理できるかを測定するテストです。<br>
+        テストが始まると、数文の英文が一定の時間に表示されます。<br>
+        時間が切れると、解答欄が表示されます。<br>
+        それぞれの文章の最後の単語、および内容の正誤を答えてください。<br>
 	<br>
 	問題は全部で $qNumMax 問です。<br>
 
