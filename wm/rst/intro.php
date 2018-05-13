@@ -26,6 +26,7 @@ include("../../_class/c_mysql.php");
 
 // ====================
 
+//$isListening = $_POST['isListening'];
 $isTest    = $_POST['isTest'];
 if($isTest == 0)
 {
@@ -40,7 +41,12 @@ $qSet	   = $_POST['qSet'];
 
 $srcDir    = $config["srcDir"];
 $pageTitle = $config["pageTitle"];
-$qNumMax   = $config["qNumMax"];
+if($isTest == 0){
+    $qNumMax = 1;
+}else{
+    $qNumMax = $config["qNumMax_rst"];    
+}
+
 
 $sqlTableQuestion = $config["sqlTableQuestion"];
 $sqlTableResult   = $config["sqlTableResult"];
@@ -73,7 +79,8 @@ $qOrder[0] = 0;
 
 	$i_mysql->connect();
 	
-	$sql_select = "SELECT username, MAX( trial_number ) AS trial_num_max FROM $sqlTableResult  WHERE 'is_test' = $isTest AND username = '$UserName' AND groupname = '$GroupName'";
+	$sql_select = "SELECT username, MAX( trial_number ) AS trial_num_max FROM $sqlTableResult  "
+                . "WHERE is_listening = '$isListening' AND is_test = '$isTest' AND username = '$UserName' AND groupname = '$GroupName'";
 	$sql_result = mysql_query($sql_select);
 	$row = mysql_fetch_array($sql_result, MYSQL_ASSOC);
 	if($row["trial_num_max"] == NULL)
@@ -125,7 +132,8 @@ echo <<<EOF
 	問題は全部で $qNumMax 問です。<br>
 
 <!-- send variables to the next page as hidden -->
-	<p><input type="hidden" value="$isTest" id="isTest" name="isTest" /></p>
+	<p><input type="hidden" value="0" id="isListening" name="isListening" /></p>
+        <p><input type="hidden" value="$isTest" id="isTest" name="isTest" /></p>
 	<p><input type="hidden" value="1" id="isFirst" name="isFirst" /></p>
 	<p><input type="hidden" value="$trialNum" id="trialNum" name="trialNum" /></p>
 	<p><input type="hidden" value="$UserName" id="UserName" name="UserName" /></p>

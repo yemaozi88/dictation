@@ -123,21 +123,34 @@ EOF;
 		echo <<<EOF
 <table border="0">
 <tr>
+<!--
 	<td><input type="radio" name="GroupName" value="tiu" checked="checked"></td>
 	<td width="250" height="80" valign="center">
 		<img src="$logo_dir/tiu.png" width="220">
 	</td>
-
+-->
+	<td><input type="radio" name="GroupName" value="soka" checked="checked"></td>
+	<td width="250" height="80" valign="center">
+		<img src="$logo_dir/soka.png" width="220">
+	</td>
+            
 	<td><input type="radio" name="GroupName" value="aoyama"></td>
 	<td width="250" height="80" valign="center">
 		<img src="$logo_dir/aoyama.gif" width="220">
 	</td>
 </tr>
 <tr>
+<!--
 	<td><input type="radio" name="GroupName" value="chuo"></td>
 	<td width="250" height="80" valign="center">
 		<img src="$logo_dir/chuo.gif" width="220">
 	</td>
+-->
+	<td><input type="radio" name="GroupName" value="soka2"></td>
+	<td width="250" height="80" valign="center">
+		<img src="$logo_dir/soka.png" width="220"></br>
+                <center><b><span style="line-height:50%">通信教育部</span></b></center>
+	</td>                        
 
 	<td><input type="radio" name="GroupName" value="seijo"></td>
 	<td width="250" height="80" valign="center">

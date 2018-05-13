@@ -19,7 +19,7 @@
 // configuration
 // ====================
 
-$isDebug = true;
+$isDebug = false;
 
 $config   = parse_ini_file("../config.ini", false);
 include("../../_class/c_pagestyle.php");
@@ -30,8 +30,8 @@ include("../../_class/c_mysql.php");
 $srcDir    = $config["srcDir"];
 $jsDir     = $config["jsDir"];
 $pageTitle = $config["pageTitle"];
-$wavDir	   = $config["wavDir"];
-$qNumMax   = $config["qNumMax"];
+//$wavDir	   = $config["wavDir"];
+
 $timeLimit = $config["timeLimit"];
 
 $sqlTableQuestion = $config["sqlTableQuestion"];
@@ -56,8 +56,14 @@ if(isset($_POST['isFirst']))
 
 if($isFirst == 1) // if it is the first time
 {
+        $isListening = $_POST['isListening'];
 	$isTest    = $_POST['isTest'];
 	$trialNum  = $_POST['trialNum'];
+        if($isTest == 0){
+            $qNumMax = 1;
+        }else{
+            $qNumMax = $config["qNumMax_rst"];    
+        }
 	$UserName  = $_POST['UserName'];
 	$GroupName = $_POST['GroupName'];
 	$qSet	   = $_POST['qSet'];
@@ -68,8 +74,15 @@ if($isFirst == 1) // if it is the first time
 		$qOrder[$i] = $_POST["q$i"];
 	}	    
 }
+else
 {
+        $isListening = $_GET['isListening'];
     	$isTest     = $_GET['isTest'];
+        if($isTest == 0){
+            $qNumMax = 1;
+        }else{
+            $qNumMax = $config["qNumMax_rst"];    
+        }        
 	$trialNum   = $_GET['trialNum'];
 	$UserName   = $_GET['UserName'];
 	$GroupName  = $_GET['GroupName'];
@@ -97,6 +110,7 @@ $i_pagestyle->print_home_button();
 if($isDebug == true)
 {
 	echo "
+            isListening: $isListening</br>
 	isFirst: $isFirst</br>
 	isTest: $isTest</br>	
 	trialNum: $trialNum</br>
@@ -119,15 +133,14 @@ echo <<<EOF
 <!--    <script type="text/javascript" src="play.js"></script> -->
         
         <script type="text/javascript"> timeMax = $timeLimit</script>
-<!--    <script type="text/javascript" src="$jsDir/timer3.js"></script> -->
-        <script type="text/javascript" src="timer3.js"></script>
+        <script type="text/javascript" src="$jsDir/timer3.js"></script>
 EOF;
 
 for ($i = 1; $i <= $qSet; $i++)
 {
 	$sql_select = "SELECT quiz_num, question, last_word, answer
 		FROM $sqlTableQuestion
-		WHERE is_listening = 0 AND is_test = $isTest AND quiz_set = $qSet AND quiz_num = $QuizNumber + $i - 1";
+		WHERE is_listening = 0 AND is_test = $isTest AND quiz_set = $qSet AND quiz_num = ($QuizNumber -1) * $qSet + $i";
 	$sql_result = mysql_query($sql_select);
 
 	$row = mysql_fetch_array($sql_result, MYSQL_ASSOC);
@@ -174,7 +187,7 @@ echo <<<EOF
         </td>
         
         <td>
-            <center><button type="button" id="showbutton" onclick="clickButton_show($i, $qSet)">問題を見る</button></center>
+            <center><button type="button" id="showbutton" style="color:white;background-color: #4d1a00;border-color:white" onclick="clickButton_show($i, $qSet)">問題を見る</button></center>
         </td>
 
 <!--
@@ -195,13 +208,14 @@ EOF;
 
 for ($i = 1; $i <= $qSet; $i++){
 echo <<<EOF
-    <div id="lastWord$i"></div>
+    <div id="aWord$i"></div>
 EOF;
 }
 
 echo <<<EOF
 <div id="sendResult"></div>
     <!-- Hidden Variables -->
+    <p><input type="hidden" value="0" id="isListening" name="isListening" /></p>
     <p><input type="hidden" value="$isTest" id="isTest" name="isTest" /></p>
     <p><input type="hidden" value="$isFirst" id="isFirst" name="isFirst" /></p>
     <p><input type="hidden" value="1" id="isFirst" name="isFirst" /></p>
@@ -216,8 +230,8 @@ echo <<<EOF
     <p><input type="hidden" value="" id="hiddenRemainingTime" name="hiddenRemainingTime" /></p>          
     
     <!-- User answers. -->
-    <p><input type="text" value="" id="ElapsedTimeAll" name="ElapsedTimeAll" /></p>
-    <p><input type="text" value="" id="TFall" name="TFall" /></p>
+    <p><input type="hidden" value="" id="ElapsedTimeAll" name="ElapsedTimeAll" /></p>
+    <p><input type="hidden" value="" id="TFall" name="TFall" /></p>
 
 EOF;
 
