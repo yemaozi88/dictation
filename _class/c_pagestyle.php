@@ -148,8 +148,7 @@ EOF;
 -->
 	<td><input type="radio" name="GroupName" value="soka2"></td>
 	<td width="250" height="80" valign="center">
-		<img src="$logo_dir/soka.png" width="220"></br>
-                <center><b><span style="line-height:50%">通信教育部</span></b></center>
+		<img src="$logo_dir/soka2.png" width="220"></br>
 	</td>                        
 
 	<td><input type="radio" name="GroupName" value="seijo"></td>
