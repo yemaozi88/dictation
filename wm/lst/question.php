@@ -20,11 +20,12 @@
 // configuration
 // ====================
 
-$isDebug = false;
+$isDebug = true;
 
 $config   = parse_ini_file("../config.ini", false);
 include("../../_class/c_pagestyle.php");
 include("../../_class/c_mysql.php");
+require("../../_class/read_manifest_json.php");
 
 // ====================
 
@@ -32,7 +33,12 @@ $srcDir    = $config["srcDir"];
 $jsDir     = $config["jsDir"];
 $pageTitle = $config["pageTitle"];
 $wavDir	   = $config["wavDir"];
-$qNumMax   = $config["qNumMax"];
+//$qNumMax   = $config["qNumMax"];
+if($isTest == 0){
+    $qNumMax = 1;
+}else{
+    $qNumMax = $config["qNumMax_lst"];
+}
 
 $sqlTableQuestion = $config["sqlTableQuestion"];
 $sqlTableResult   = $config["sqlTableResult"];
@@ -118,7 +124,7 @@ echo <<<EOF
 <form action="result.php" method="post" >
 	<h2>第 $QuizNumber 問</h2>
 	<script type="text/javascript"> var qWord1 = []; </script>
-	<script type="text/javascript" src="play.js"></script>
+	<script type="text/javascript" src="../../_js/play.js"></script>
 	<button type="button" id="playbutton" onclick="clickButton()" disabled="true">問題の再生</button>
 EOF;
 

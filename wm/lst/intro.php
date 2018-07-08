@@ -23,7 +23,7 @@
 // configuration & get form data
 // ====================
 
-$isDebug = false;
+$isDebug = true;
 
 $config    = parse_ini_file("../config.ini", false);
 include("../../_class/c_pagestyle.php");
@@ -45,7 +45,13 @@ $qSet	   = $_POST['qSet'];
 
 $srcDir    = $config["srcDir"];
 $pageTitle = $config["pageTitle"];
-$qNumMax   = $config["qNumMax"];
+//$qNumMax   = $config["qNumMax_lst"];
+if($isTest == 0){
+    $qNumMax = 1;
+}else{
+    $qNumMax = $config["qNumMax_lst"];
+}
+
 
 $sqlTableQuestion = $config["sqlTableQuestion"];
 $sqlTableResult   = $config["sqlTableResult"];

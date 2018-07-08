@@ -31,7 +31,12 @@ include("../../_class/c_mysql.php");
 
 $srcDir    = $config["srcDir"];
 $pageTitle = $config["pageTitle"];
-$qNumMax   = $config["qNumMax"];
+//$qNumMax   = $config["qNumMax"];
+if($isTest == 0){
+    $qNumMax = 1;
+}else{
+    $qNumMax = $config["qNumMax_lst"];
+}
 
 $sqlTableQuestion = $config["sqlTableQuestion"];
 $sqlTableResult   = $config["sqlTableResult"];
@@ -162,7 +167,7 @@ for ($i = 1; $i <= $qSet; $i++) {
 		$qTrueOK = 1;
 	}
 
-/*
+
 	// check
 	echo "
 	<!-- 
@@ -178,7 +183,7 @@ for ($i = 1; $i <= $qSet; $i++) {
 	qTrueOK: $qTrueOK</br>
 	----------</br>
 	";
-*/
+
 
 	// send results to mysql
 	$sql_insert = "INSERT INTO $sqlTableResult(
