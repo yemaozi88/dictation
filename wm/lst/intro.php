@@ -23,11 +23,14 @@
 // configuration & get form data
 // ====================
 
-$isDebug = true;
+$isDebug = false;
 
 $config    = parse_ini_file("../config.ini", false);
-include("../../_class/c_pagestyle.php");
-include("../../_class/c_mysql.php");
+require("../../_class/c_pagestyle.php");
+require("../../_class/c_mysql.php");
+require("../../_class/read_manifest_json.php");
+
+$json_dir = '../../uploader/upload/lst';
 
 // ====================
 
@@ -35,10 +38,12 @@ $isTest    = $_POST['isTest'];
 if($isTest == 0)
 {
     $GroupName = '';
+    $manifest_json = $json_dir . '/' . 'practice' . '/manifest.json';
 }
 else
 {
     $GroupName = $_POST['GroupName'];
+    $manifest_json = $json_dir . '/' . 'test' . '/manifest.json';
 }
 $UserName  = $_POST['UserName'];
 $qSet	   = $_POST['qSet'];
@@ -46,11 +51,13 @@ $qSet	   = $_POST['qSet'];
 $srcDir    = $config["srcDir"];
 $pageTitle = $config["pageTitle"];
 //$qNumMax   = $config["qNumMax_lst"];
+/*
 if($isTest == 0){
     $qNumMax = 1;
 }else{
     $qNumMax = $config["qNumMax_lst"];
 }
+*/
 
 
 $sqlTableQuestion = $config["sqlTableQuestion"];
@@ -60,6 +67,14 @@ $i_pagestyle = new c_pagestyle();
 $i_pagestyle->set_variables($pageTitle, $srcDir);
 
 $i_mysql = new c_mysql();
+
+
+// ====================
+// get question information from the json file.
+// ====================
+$data = loadManifestJson($manifest_json);
+$iQuestionList = get_iQuestionList($data, $qSet);
+$qNumMax = count($iQuestionList);
 
 
 // ====================
@@ -128,15 +143,23 @@ echo <<<EOF
 	<h2>回答方法の説明</h2>
 	こんにちは $UserName さん。<br>
 	<br>
-	これはあなたが一度にどれだけの英文を処理できるかを測定するテストです。<br>
+	これはあなたが一度にどれだけの英文を聞いて理解しながら記憶できるかを測定するクイズです。<br>
 	「問題を再生」ボタンを押すと、$qSet 文の英文が連続して流れます。<br>
 	英文は一度しか流れず、聞きなおすことはできません。<br>
 	<br>
-	再生が終了すると、1.5秒後に解答欄が表示されます。<br>
-	それぞれの文章の最後の単語、および内容の正誤を答えてください。<br>
+        再生が終了すると、文の正誤についての解答欄が表示されます。</br>
+        それぞれの英文の内容の正誤を選び，次の問題に進んでください。</br>
 	<br>
+        クイズをしている間，途中でメモをとってはいけません。頭の中に記憶して
+ください。</br>
+        <br>
+        連続した英文の正誤判定が終わったら，各文の最後の単語についてタイピングして答えてください。</br>
+        最初のスペリングが表示されているので，それに続けてタイプしてください。</br>
+        <br>
 	問題は全部で $qNumMax 問です。<br>
-
+        
+        
+        
 <!-- send variables to the next page as hidden -->
 	<p><input type="hidden" value="$isTest" id="isTest" name="isTest" /></p>
 	<p><input type="hidden" value="1" id="isFirst" name="isFirst" /></p>
@@ -147,9 +170,9 @@ echo <<<EOF
 EOF;
 
 // question order
-echo "<p>";
+echo "\n<p>";
 for($i = 1; $i < $qNumMax+1; $i++){
-	echo "<input type=\"hidden\" value=\"" . $qOrder[$i] . "\" id=\"q$i\" name=\"q" . $i . "\" />";
+	echo "  <input type=\"hidden\" value=\"" . $qOrder[$i] . "\" id=\"q$i\" name=\"q" . $i . "\" />\n";
 }
 echo "</p>";
 

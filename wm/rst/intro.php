@@ -122,15 +122,30 @@ if($isDebug == true)
 echo <<<EOF
 <form action="question.php" method="post">
 	<h2>回答方法の説明</h2>
-	こんにちは $UserName さん。<br>
+	こんにちは $UserName さん。</br>
 	<br>
-        これはあなたが一度にどれだけの英文を処理できるかを測定するテストです。<br>
-        テストが始まると、数文の英文が一定の時間に表示されます。<br>
-        時間が切れると、解答欄が表示されます。<br>
-        それぞれの文章の最後の単語、および内容の正誤を答えてください。<br>
+        これはあなたが一度にどれだけの英文を読んで理解しながら記憶できるかを測定するクイズです。</br>
+        クイズが始まると、いくつかの英文が一定の時間に表示されます。</br>
+        </br>
+        各々の英文が内容的に正しければ true, 正しくなければ false を選んでください。</br>
+        （表示された直後は，すべて trueになっているので，必要に応じて，falseを選んでください）</br>
+        </br>
+        一定時間がたつと、解答欄が表示されます。<br>
+        今，読んだ英文の最後の単語を答えてください。最初のスペリングが表示されているので，それに続けてタイプしてください。<br>
 	<br>
-	問題は全部で $qNumMax 問です。<br>
+EOF;
 
+if($isTest == 1)
+{
+    print("本番クイズですので，入力した解答が正しかったかどうかは表示されず，次の問題に進むようになっています。</br></br>");
+}
+
+echo <<<EOF
+        クイズをしている間，メモは取らないでください。</br>
+        </br>
+	問題は全部で $qNumMax 問です。<br>
+        では [始める] ボタンを押しましょう。</br>
+        
 <!-- send variables to the next page as hidden -->
 	<p><input type="hidden" value="0" id="isListening" name="isListening" /></p>
         <p><input type="hidden" value="$isTest" id="isTest" name="isTest" /></p>

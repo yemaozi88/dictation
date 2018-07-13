@@ -9,6 +9,7 @@
  * SEND
  *
  * HISTORY
+ * 2018/07/08 question info is loaded from manifest.json, instead of from database.
  * 2013/12/18 the function to send the result to SQL is added
  *
  * AUTHOR
@@ -24,19 +25,17 @@
 $isDebug = false;
 
 $config   = parse_ini_file("../config.ini", false);
-include("../../_class/c_pagestyle.php");
-include("../../_class/c_mysql.php");
+require("../../_class/c_pagestyle.php");
+require("../../_class/c_mysql.php");
+require("../../_class/read_manifest_json.php");
+
+$json_dir = '../../uploader/upload/lst';
 
 // ====================
 
 $srcDir    = $config["srcDir"];
 $pageTitle = $config["pageTitle"];
 //$qNumMax   = $config["qNumMax"];
-if($isTest == 0){
-    $qNumMax = 1;
-}else{
-    $qNumMax = $config["qNumMax_lst"];
-}
 
 $sqlTableQuestion = $config["sqlTableQuestion"];
 $sqlTableResult   = $config["sqlTableResult"];
@@ -53,11 +52,25 @@ $i_mysql->connect();
 // ====================
 $isFirst    = $_POST['isFirst'];
 $isTest     = $_POST['isTest'];
+if($isTest == 0){
+    //$qNumMax = 1;
+    $manifest_json = $json_dir . '/' . 'practice' . '/manifest.json';
+}else{
+    //$qNumMax = $config["qNumMax_lst"];
+    $manifest_json = $json_dir . '/' . 'test' . '/manifest.json';
+}
 $trialNum   = $_POST['trialNum'];
 $UserName   = $_POST['UserName'];
 $GroupName  = $_POST['GroupName'];
 $qSet       = $_POST['qSet'];
 $QuizNumber = $_POST{'QuizNumber'};
+
+// ====================
+// get qNumMax.
+// ====================
+$data = loadManifestJson($manifest_json);
+$iQuestionList = get_iQuestionList($data, $qSet);
+$qNumMax = count($iQuestionList);
 
 for($i = 1; $i < $qNumMax+1; $i++)
 {
@@ -86,7 +99,14 @@ for($i = 1; $i < $qSet+1; $i++){
    }
 }
 
-$wavNum = $qSet * ( $qOrder[$QuizNumber] - 1 ) + 1;
+//$wavNum = $qSet * ( $qOrder[$QuizNumber] - 1 ) + 1;
+// ====================
+// get question information from the json file.
+// ====================
+//$questionInfo = getQuestionInfo($data, $qSet, $QuizNumber);
+$questionInfo = getQuestionInfo($data, $qSet, $qOrder[$QuizNumber]);
+// $answers has fields of "correctness", "lastWord", text"
+$answers = getAnswers($questionInfo);
 
 	
 // ====================
@@ -113,6 +133,8 @@ if($isDebug == true)
 	qNumMax: $qNumMax</br>
 	sqlTableQuestion: $sqlTableQuestion</br>
 	sqlTableResult: $sqlTableResult</br>
+        manifest_json: $manifest_json</br>
+        answers: $answers[0]</br>            
 	";
 }
 
@@ -130,6 +152,8 @@ EOF;
 // ====================
 
 for ($i = 1; $i <= $qSet; $i++) {
+    $index = $i-1;
+    /*
 	$sql_select = "SELECT quiz_num, question, last_word, answer
 		FROM $sqlTableQuestion
 		WHERE quiz_set = $qSet AND quiz_num = $wavNum";
@@ -138,20 +162,34 @@ for ($i = 1; $i <= $qSet; $i++) {
 	$row = mysql_fetch_array($sql_result, MYSQL_ASSOC);
 
 	$qNum = $row["quiz_num"];
+     */
 
 	/*
 	 * extract the last word from the question sentence
 	 * a period should be removed
 	 */
-	$question_ = $row["question"];
-	$question  = preg_split("/[\s]+/", $question_);
-	$wNum      = count($question);
+	//$question_ = $row["question"];
+	//$question  = preg_split("/[\s]+/", $question_);
+	//$wNum      = count($question);
 	//$qWord    = $question[$wNum-1];
+        $question = $answers[$index][text];
+        
+	//$qWord = $row["last_word"];
+	//$qTrue = $row["answer"];
+        $qWord  = $answers[$index][lastWord];
+	
+        $qTrue_ = $answers[$index][correctness];
+ 
+        if($qTrue_ == 1)
+        {
+            $qTrue = 1;
+        }
+        else 
+        {
+            $qTrue = 0;
+        }
 
-	$qWord = $row["last_word"];
-	$qTrue = $row["answer"];
-
-
+                
 	// ====================
 	// is user answer correct
 	// ====================
@@ -169,21 +207,21 @@ for ($i = 1; $i <= $qSet; $i++) {
 
 
 	// check
-	echo "
-	<!-- 
-	question_: $question_</br>
-	wNum: $wNum</br> 
-	-->
-	wavNum: $wavNum</br>
-	aWord: $aWord[$i]</br>
-	qWord: $qWord</br>
-	qWordOK: $qWordOK</br>
-	aTrue: $aTrue[$i]</br>
-	qTrue: $qTrue</br>
-	qTrueOK: $qTrueOK</br>
-	----------</br>
-	";
-
+        if($isDebug == true)
+        {
+            echo "
+                wavNum: $wavNum</br>
+                aWord: $aWord[$i]</br>
+                qWord: $qWord</br>
+                qWordOK: $qWordOK</br>
+                aTrue: $aTrue[$i]</br>
+                qTrue_: $qTrue_</br>
+                qTrue: $qTrue</br>
+                qTrueOK: $qTrueOK</br>
+                ----------</br>
+                ";
+                print_r($answers[$index]);
+        }
 
 	// send results to mysql
 	$sql_insert = "INSERT INTO $sqlTableResult(
