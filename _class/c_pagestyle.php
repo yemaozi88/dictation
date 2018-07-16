@@ -38,8 +38,8 @@ class c_pagestyle
 		$this->src_dir	  = $src_dir;
 		$this->css_dir	  = $src_dir . "/style.css";
 	}
-	
-	
+        
+        
 	public function disp_variables()
 	{
 		echo "home url:" . $this->home_url . "<br />";
@@ -216,10 +216,10 @@ EOF;
 <a href="http://www.waschbaerli.com/dictation/eword/quiz/index.php?withWav=0&isTest=1">見て答える問題（テスト）</a>
 
 <p>作動記憶クイズ</p>
-<a href="http://www.waschbaerli.com/dictation/wm/lst/index.php?isTest=0">聴いて答える問題(練習)</a>
-<a href="http://www.waschbaerli.com/dictation/wm/lst/index.php?isTest=1">聴いて答える問題(テスト)</a>
-<a href="http://www.waschbaerli.com/dictation/wm/rst/index.php?isTest=0">見て答える問題(練習)</a>
-<a href="http://www.waschbaerli.com/dictation/wm/rst/index.php?isTest=1">見て答える問題(テスト)</a>
+<a href="http://www.waschbaerli.com/dictation/wm/sentence/index.php?withWav=1&isTest=0">聴いて答える問題(練習)</a>
+<a href="http://www.waschbaerli.com/dictation/wm/sentence/index.php?withWav=1&isTest=1">聴いて答える問題(テスト)</a>
+<a href="http://www.waschbaerli.com/dictation/wm/sentence/index.php?withWav=0&isTest=0">見て答える問題(練習)</a>
+<a href="http://www.waschbaerli.com/dictation/wm/sentence/index.php?withWav=0&isTest=1">見て答える問題(テスト)</a>
 </br>
 		</div><!-- end:menulist -->
 
