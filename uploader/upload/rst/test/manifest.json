@@ -1,0 +1,208 @@
+{
+    "questionSets": [
+        {
+            "texts": [
+                "Elementary school students are older than university students.",
+                "People in the U.S. often use knives and forks when they eat."
+            ],
+            "questionNum": 2,
+            "timeLimit": 300,
+            "answers": [
+                {
+                    "correctness": false,
+                    "lastWord": "students"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "eat"
+                }
+            ]
+        },
+        {
+            "texts": [
+                "Spaghetti is a popular Italian food eaten almost all over the world.",
+                "Sumo wrestlers are usually short and very thin."
+            ],
+            "questionNum": 2,
+            "timeLimit": 300,
+            "answers": [
+                {
+                    "correctness": true,
+                    "lastWord": "world"
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "thin"
+                }
+            ]
+        },
+        {
+            "texts": [
+                "Tokyo is the smallest city in Japan.",
+                "Black is a sign of good luck in many cultures.",
+                "George Washington was the first president of the United States."
+            ],
+            "questionNum": 3,
+            "timeLimit": 300,
+            "answers": [
+                {
+                    "correctness": false,
+                    "lastWord": "Japan"
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "cultures"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "States"
+                }
+            ]
+        },
+        {
+            "texts": [
+                "B is the letter that comes second in the alphabet.",
+                "When the sky turns dark and grey, it is likely to rain.",
+                "A taxi driver is a person whose job is to teach cooking."
+            ],
+            "questionNum": 3,
+            "timeLimit": 300,
+            "answers": [
+                {
+                    "correctness": true,
+                    "lastWord": "alphabet"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "rain"
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "cooking"
+                }
+            ]
+        },
+        {
+            "texts": [
+                "A horse has four legs and a round face.",
+                "We use a hair dryer to dry our hair.",
+                "October is the coldest month in Japan.",
+                "Baseball is very popular both in Japan and the United States."
+            ],
+            "questionNum": 4,
+            "timeLimit": 300,
+            "answers": [
+                {
+                    "correctness": false,
+                    "lastWord": "face"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "hair"
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "Japan"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "States"
+                }
+            ]
+        },
+        {
+            "texts": [
+                "The Earth moves round the moon.",
+                "All Japanese eat fish but never meat.",
+                "A bookseller is a person who sells books.",
+                "We can use an oven when we bake bread."
+            ],
+            "questionNum": 4,
+            "timeLimit": 300,
+            "answers": [
+                {
+                    "correctness": false,
+                    "lastWord": "moon"
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "meat"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "books"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "bread"
+                }
+            ]
+        },
+        {
+            "texts": [
+                "You need a passport to go abroad.",
+                "We can see lots of stars on a rainy day.",
+                "April is the fourth month of the year.",
+                "A mouse runs after cats and eats them.",
+                "There are many temples and shrines in Kyoto."
+            ],
+            "questionNum": 5,
+            "timeLimit": 300,
+            "answers": [
+                {
+                    "correctness": true,
+                    "lastWord": "abroad"
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "day"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "year"
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "them"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "Kyoto"
+                }
+            ]
+        },
+        {
+            "texts": [
+                "We can usually take pictures by our smartphone.",
+                "A person who takes care of children is called a \"baby-sitter.\"",
+                "You do not have to show a ticket when you go to a movie.",
+                "Large Japanese drums are common instruments at summer festivals.",
+                "Mathematics helps us understand about numbers."
+            ],
+            "questionNum": 5,
+            "timeLimit": 300,
+            "answers": [
+                {
+                    "correctness": true,
+                    "lastWord": "smartphone"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "baby-sitter"
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "movie"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "festivals"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "numbers"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "questionSets": [
+        {
+            "texts": [
+                "London is the capital city of France.",
+                "Drivers have to stop when the traffic light is red."
+            ],
+            "questionNum": 2,
+            "timeLimit": 300,
+            "answers": [
+                {
+                    "correctness": false,
+                    "lastWord": "France"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "red"
+                }
+            ]
+        },
+        {
+            "texts": [
+                "Newton was a famous Japanese scientist.",
+                "We use e-mail to keep in touch with friends.",
+                "A librarian is a person who works in a library."
+            ],
+            "questionNum": 3,
+            "timeLimit": 300,
+            "answers": [
+                {
+                    "correctness": false,
+                    "lastWord": "scientist"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "friends"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "library"
+                }
+            ]
+        },
+        {
+            "texts": [
+                "An elephant is a large animal whose nose is very short.",
+                "We can use a pass or tickets to ride a bus or a train.",
+                "Roast beef is a very expensive vegetable.",
+                "A piano is a popular musical instrument."
+            ],
+            "questionNum": 4,
+            "timeLimit": 300,
+            "answers": [
+                {
+                    "correctness": false,
+                    "lastWord": "short"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "train"
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "vegetable"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "instrument"
+                }
+            ]
+        },
+        {
+            "texts": [
+                "Okinawa is surrounded by the sea.",
+                "A bear is an animal that lives in the river.",
+                "A newly married couple usually goes on a honeymoon.",
+                "An athlete is a person who is fond of shopping.",
+                "Both coffee and tea contain caffeine."
+            ],
+            "questionNum": 5,
+            "timeLimit": 300,
+            "answers": [
+                {
+                    "correctness": true,
+                    "lastWord": "sea"
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "river"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "honeymoon"
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "shopping"
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "caffeine"
+                }
+            ]
+        }
+    ]
+}

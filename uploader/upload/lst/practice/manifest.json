@@ -1,0 +1,116 @@
+{
+    "questionSets": [
+        {
+            "wavs": [
+                "1.wav",
+                "2.wav"
+            ],
+            "questionNum": 2,
+            "answers": [
+                {
+                    "correctness": true,
+                    "lastWord": "year",
+                    "text": "June is the sixth month of the year."
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "cook",
+                    "text": "Mathematics is a subject that teaches us how to cook."
+                }
+            ]
+        },
+        {
+            "wavs": [
+                "7.wav",
+                "8.wav",
+                "9.wav"
+            ],
+            "questionNum": 3,
+            "answers": [
+                {
+                    "correctness": true,
+                    "lastWord": "week",
+                    "text": "Wednesday comes before Thursday in a week."
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "March",
+                    "text": "In Japan, graduation ceremony is usually held in March."
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "December",
+                    "text": "Christian people celebrate Christmas in December."
+                }
+            ]
+        },
+        {
+            "wavs": [
+                "16.wav",
+                "17.wav",
+                "18.wav",
+                "19.wav"
+            ],
+            "questionNum": 4,
+            "answers": [
+                {
+                    "correctness": true,
+                    "lastWord": "Japan",
+                    "text": "Rice is a common food in Japan."
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "year",
+                    "text": "August comes after September in a year."
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "desert",
+                    "text": "There is little water in a desert."
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "money",
+                    "text": "Some people become rich by losing money."
+                }
+            ]
+        },
+        {
+            "wavs": [
+                "28.wav",
+                "29.wav",
+                "30.wav",
+                "31.wav",
+                "32.wav"
+            ],
+            "questionNum": 5,
+            "answers": [
+                {
+                    "correctness": true,
+                    "lastWord": "sea",
+                    "text": "Okinawa is surrounded by the sea."
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "river",
+                    "text": "A bear is an animal that lives in the river."
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "honeymoon",
+                    "text": "A newly married couple usually goes on a honeymoon."
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "shopping",
+                    "text": "An athlete is a person who is fond of shopping."
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "caffeine",
+                    "text": "Both coffee and tea contain caffeine."
+                }
+            ]
+        }
+    ]
+}

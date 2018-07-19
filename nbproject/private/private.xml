@@ -5,8 +5,11 @@
         <group>
             <file>file:/C:/xampp/htdocs/waschbaerli/dictation/wm/sentence/question.php</file>
             <file>file:/C:/xampp/htdocs/waschbaerli/dictation/wm/sentence/result.php</file>
+            <file>file:/C:/xampp/htdocs/waschbaerli/dictation/uploader/upload/rst/test/manifest.json</file>
             <file>file:/C:/xampp/htdocs/waschbaerli/dictation/wm/sentence/index.php</file>
+            <file>file:/C:/xampp/htdocs/waschbaerli/dictation/uploader/upload/lst/practice/manifest.json</file>
             <file>file:/C:/xampp/htdocs/waschbaerli/dictation/wm/sentence/intro.php</file>
+            <file>file:/C:/xampp/htdocs/waschbaerli/dictation/uploader/upload/lst/test/manifest.json</file>
         </group>
     </open-files>
 </project-private>

@@ -1,0 +1,228 @@
+{
+    "questionSets": [
+        {
+            "wavs": [
+                "3.wav",
+                "4.wav"
+            ],
+            "questionNum": 2,
+            "answers": [
+                {
+                    "correctness": false,
+                    "lastWord": "strings",
+                    "text": "A trumpet is a musical instrument that has strings."
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "trouble",
+                    "text": "A policeman is a person who helps people in trouble."
+                }
+            ]
+        },
+        {
+            "wavs": [
+                "5.wav",
+                "6.wav"
+            ],
+            "questionNum": 2,
+            "answers": [
+                {
+                    "correctness": true,
+                    "lastWord": "health",
+                    "text": "Drinking too much is not good for our health."
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "day",
+                    "text": "Gray is a color we use to draw the sky on a fine day."
+                }
+            ]
+        },
+        {
+            "wavs": [
+                "10.wav",
+                "11.wav",
+                "12.wav"
+            ],
+            "questionNum": 3,
+            "answers": [
+                {
+                    "correctness": false,
+                    "lastWord": "d",
+                    "text": "In the alphabet \"c\" comes after \"d.\""
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "decks",
+                    "text": "In London, we can see red buses which have two decks."
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "Celsius",
+                    "text": "Water begins to boil at sixty degrees Celsius."
+                }
+            ]
+        },
+        {
+            "wavs": [
+                "13.wav",
+                "14.wav",
+                "15.wav"
+            ],
+            "questionNum": 3,
+            "answers": [
+                {
+                    "correctness": false,
+                    "lastWord": "Fuji",
+                    "text": "The highest mountain in the world is Mt. Fuji."
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "sick",
+                    "text": "A doctor and a nurse help people who are sick."
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "busy",
+                    "text": "There is a lot of time to relax when you are busy."
+                }
+            ]
+        },
+        {
+            "wavs": [
+                "20.wav",
+                "21.wav",
+                "22.wav",
+                "23.wav"
+            ],
+            "questionNum": 4,
+            "answers": [
+                {
+                    "correctness": false,
+                    "lastWord": "Japan",
+                    "text": "You have to dial 229 when you call the police in Japan."
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "years",
+                    "text": "The Olympic Games is an event that is held every five years."
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "carrots",
+                    "text": "A rabbit is a small animal that eats carrots."
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "funeral",
+                    "text": "Japanese people usually wear black clothes at a funeral."
+                }
+            ]
+        },
+        {
+            "wavs": [
+                "24.wav",
+                "25.wav",
+                "26.wav",
+                "27.wav"
+            ],
+            "questionNum": 4,
+            "answers": [
+                {
+                    "correctness": false,
+                    "lastWord": "money",
+                    "text": "Poor people earn a lot of money."
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "bank",
+                    "text": "A banker is a person who works at a bank."
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "books",
+                    "text": "At a library, we usually buy books."
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "maker",
+                    "text": "Toyota company is a famous car maker."
+                }
+            ]
+        },
+        {
+            "wavs": [
+                "33.wav",
+                "34.wav",
+                "35.wav",
+                "36.wav",
+                "37.wav"
+            ],
+            "questionNum": 5,
+            "answers": [
+                {
+                    "correctness": false,
+                    "lastWord": "spicy",
+                    "text": "Every child knows that an apple tastes spicy."
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "born",
+                    "text": "Most animals are small when they are born."
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "Thursday",
+                    "text": "The day which comes after Wednesday is Thursday."
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "die",
+                    "text": "If you are bitten by a cobra, you might die."
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "century",
+                    "text": "Columbus discovered India in the twentieth century."
+                }
+            ]
+        },
+        {
+            "wavs": [
+                "38.wav",
+                "39.wav",
+                "40.wav",
+                "41.wav",
+                "42.wav"
+            ],
+            "questionNum": 5,
+            "answers": [
+                {
+                    "correctness": false,
+                    "lastWord": "flowers",
+                    "text": "In psychology we can learn about plants and flowers."
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "hot",
+                    "text": "Curry and rice is a dish which is usually spicy and hot."
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "wheels",
+                    "text": "A bicycle is a thing we ride on with four wheels."
+                },
+                {
+                    "correctness": true,
+                    "lastWord": "fresh",
+                    "text": "A refrigerator is a machine which keeps food and drinks fresh."
+                },
+                {
+                    "correctness": false,
+                    "lastWord": "flat",
+                    "text": "Today most scientists believe that the Earth is flat."
+                }
+            ]
+        }
+    ]
+}

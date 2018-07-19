@@ -1,0 +1,45 @@
+{
+    "audios": {
+        "0": "audio/0.wav",
+        "1": "audio/1.wav",
+        "2": "audio/2.wav",
+        "3": "audio/3.wav",
+        "4": "audio/4.wav",
+        "5": "audio/5.wav",
+        "6": "audio/6.wav",
+        "7": "audio/7.wav",
+        "8": "audio/8.wav",
+        "9": "audio/9.wav"
+    },
+    "questionSets": {
+        "practice": [
+            {"num": 2, "order": "F"},
+            {"num": 2, "order": "B"},
+            {"num": 3, "order": "F"},
+            {"num": 3, "order": "B"},
+            {"num": 4, "order": "B"},
+            {"num": 5, "order": "B"},
+            {"num": 6, "order": "B"}
+        ],
+        "test": [
+            {"num": 2, "order": "F"},
+            {"num": 2, "order": "B"},
+            {"num": 3, "order": "F"},
+            {"num": 3, "order": "B"},
+            {"num": 4, "order": "F"},
+            {"num": 4, "order": "B"},
+            {"num": 5, "order": "F"},
+            {"num": 5, "order": "B"},
+            {"num": 6, "order": "F"},
+            {"num": 6, "order": "B"},
+            {"num": 7, "order": "F"},
+            {"num": 7, "order": "B"},
+            {"num": 8, "order": "F"},
+            {"num": 8, "order": "B"},
+            {"num": 9, "order": "F"},
+            {"num": 9, "order": "B"},
+            {"num": 10, "order": "F"},
+            {"num": 10, "order": "B"}
+        ]
+    }
+}
